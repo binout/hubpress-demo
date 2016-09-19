@@ -1,0 +1,2039 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JavaOneMoreThing]]></title><description><![CDATA[Un peu de Java et plus encore]]></description><link>https://binout.github.io/javaonemorething</link><generator>RSS for Node</generator><lastBuildDate>Mon, 19 Sep 2016 16:38:41 GMT</lastBuildDate><atom:link href="https://binout.github.io/javaonemorething/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Release : asciidoctor-ant 1.5.2]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_annonce">Annonce</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>J&#8217;ai le plaisir de vous annoncer la release de <code>asciidoctor-ant</code> en version <a href="https://github.com/asciidoctor/asciidoctor-ant/releases">1.5.2</a>. Pour rappel, le projet vous permet de convertir vos documents <code>asciidoc</code> grâce à une tâche Ant (<em>all in one</em>).</p>
+</div>
+<div class="paragraph">
+<p>Plus d&#8217;information sur :
+<a href="https://github.com/asciidoctor/asciidoctor-ant" class="bare">https://github.com/asciidoctor/asciidoctor-ant</a></p>
+</div>
+<div class="paragraph">
+<p>Des exemples d&#8217;utilisations sont disponibles dans le projet suivant :
+<a href="https://github.com/binout/asciidoctor-ant-examples" class="bare">https://github.com/binout/asciidoctor-ant-examples</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_release_note">Release note</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Alignement sur <code>asciidoctorj-1.5.2</code></p>
+<div class="ulist">
+<ul>
+<li>
+<p>la taille du jar passe de 47Mo à 25 Mo !</p>
+</li>
+<li>
+<p>support du backend <code>pdf</code> (version alpha)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Ajout de l&#8217;attribut <code>safe</code></p>
+</li>
+<li>
+<p>Support des extensions <code>asciidoctor</code> écrite en java</p>
+</li>
+<li>
+<p>Support des Gems et autres libraries Ruby</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_download">Download</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Maven Central </dt>
+<dd>
+<p><a href="http://repo1.maven.org/maven2/org/asciidoctor/asciidoctor-ant/1.5.2/" class="bare">http://repo1.maven.org/maven2/org/asciidoctor/asciidoctor-ant/1.5.2/</a></p>
+</dd>
+</dl>
+</div>
+</div>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2015/12/08/Release-asciidoctor-ant-152.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2015/12/08/Release-asciidoctor-ant-152.html</guid><category><![CDATA[java]]></category><category><![CDATA[asciidoctor]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 08 Dec 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Jug Summer Camp 2015]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_6_me_dition">6ème édition</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Le <a href="http://www.jugsummercamp.org/edition/6">Jug Summer Camp</a> est devenu une institution pour faire une bonne rentrée <em>technologique</em>.
+Comme toujours, l&#8217;organisation est au top, le programme est très sympa et le buffet toujours aussi bon :-)</p>
+</div>
+<div class="paragraph">
+<p>Voici le résumé de l&#8217;ambiance en vidéo :</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/bZvfo-SDptc?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+dédicace à Fabrice et Alexandre, deux collègues interviewés dans la vidéo
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_mon_jug_summer_camp">Mon Jug Summer Camp</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_en_tant_que_participant">En tant que participant</h3>
+<div class="paragraph">
+<p>Présent pour la 5ème fois de suite, je retiendrai surtout le très bon <a href="http://www.jugsummercamp.org/edition/6/presentation/1119">talk de Mathieu Ancemin sur React</a>. J&#8217;avais entendu parler de React mais jamais vraiment pris le temps de regarder de plus près : en une heure, Mathieu nous fait une introduction des concepts et une mise en pratique progressive avec des démos sympas. Je vous conseille de regarder la vidéo :</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/Rp_N5tXkWgY?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_en_tant_que_speaker">En tant que speaker</h3>
+<div class="paragraph">
+<p>Pour la deuxième fois de suite, j&#8217;ai été retenu par le CFP du JugSummerCamp. Cette année, je présentai deux quickies :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.jugsummercamp.org/edition/6/presentation/1124">Micro JavaEE</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Slides : <a href="http://binout.github.io/jugsummercamp-2015/micro-javaee.html" class="bare">http://binout.github.io/jugsummercamp-2015/micro-javaee.html</a></p>
+</li>
+<li>
+<p>Source : <a href="https://github.com/binout/micro-javaee" class="bare">https://github.com/binout/micro-javaee</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/v48y7oMp4go?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.jugsummercamp.org/edition/6/presentation/1126">Créer son blog en moins de 5 minues et publier en Asciidoc</a></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Slides : <a href="http://binout.github.io/jugsummercamp-2015/hubpress.html" class="bare">http://binout.github.io/jugsummercamp-2015/hubpress.html</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/EkXuGKnahDw?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="paragraph">
+<p>Si vous avez des retours sur mes deux présentations, n&#8217;hésitez pas !</p>
+</div>
+<div class="paragraph">
+<p>A l&#8217;année prochaine !</p>
+</div>
+</div>
+</div>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2015/10/10/Jug-Summer-Camp-2015.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2015/10/10/Jug-Summer-Camp-2015.html</guid><category><![CDATA[java]]></category><category><![CDATA[conf]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 10 Oct 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Java8 et JavaEE7 sont dans le même POM]]></title><description><![CDATA[<div class="listingblock">
+<div class="title">pom.xml</div>
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;
+    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+
+    &lt;groupId&gt;io.github.binout&lt;/groupId&gt;
+    &lt;artifactId&gt;javaee-sample&lt;/artifactId&gt;
+    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;
+    &lt;packaging&gt;war&lt;/packaging&gt;
+
+    &lt;properties&gt;
+        &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;
+        &lt;maven.compiler.source&gt;1.8&lt;/maven.compiler.source&gt;
+        &lt;maven.compiler.target&gt;1.8&lt;/maven.compiler.target&gt;
+        &lt;failOnMissingWebXml&gt;false&lt;/failOnMissingWebXml&gt;
+        &lt;maven.test.redirectTestOutputToFile&gt;true&lt;/maven.test.redirectTestOutputToFile&gt;
+    &lt;/properties&gt;
+
+    &lt;dependencies&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;javax&lt;/groupId&gt;
+            &lt;artifactId&gt;javaee-api&lt;/artifactId&gt;
+            &lt;version&gt;7.0&lt;/version&gt;
+            &lt;scope&gt;provided&lt;/scope&gt;
+        &lt;/dependency&gt;
+
+        &lt;!-- Test --&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.testng&lt;/groupId&gt;
+            &lt;artifactId&gt;testng&lt;/artifactId&gt;
+            &lt;version&gt;6.9.6&lt;/version&gt;
+            &lt;scope&gt;test&lt;/scope&gt;
+        &lt;/dependency&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.assertj&lt;/groupId&gt;
+            &lt;artifactId&gt;assertj-core&lt;/artifactId&gt;
+            &lt;version&gt;3.2.0&lt;/version&gt;
+            &lt;scope&gt;test&lt;/scope&gt;
+        &lt;/dependency&gt;
+    &lt;/dependencies&gt;
+
+&lt;/project&gt;</code></pre>
+</div>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2015/10/06/Java8-et-JavaEE7-sont-dans-le-meme-POM.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2015/10/06/Java8-et-JavaEE7-sont-dans-le-meme-POM.html</guid><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 06 Oct 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Java 8 : Stream et Iterator]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_les_streams_pour_les_collections">Les Streams pour les Collections</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>La grande nouveauté de Java 8, c&#8217;est bien sûr les lambdas et son application dans l&#8217;API Collection avec les <code>Streams</code>.</p>
+</div>
+<div class="listingblock">
+<div class="title">Exemple de <code>Stream</code></div>
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">public List&lt;Person&gt; findPeopleOlderThan(List&lt;Person&gt; people, int age) {
+	return people.stream()
+    	.filter(p -&gt; p.age() &gt; age)
+    	.collect(Collectors.toList());
+
+}</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_et_pour_les_iterators">Et pour les Iterators ?</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Et maintenant si dans mon code je suis obligé de manipuler un <code>Iterator</code>, comment je fais ?</p>
+</div>
+<div class="listingblock">
+<div class="title">Pas de <code>Stream</code> pour les iterators</div>
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">public List&lt;Person&gt; findPeopleOlderThan(Iterator&lt;Person&gt; people, int age) {
+	return people
+    	.stream().filter(p -&gt; p.age() &gt; age)
+        .collect(Collectors.toList());
+// ne compile pas, pas de méthode stream() sur les iterators...
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>La solution c&#8217;est d&#8217;utiliser les classes <code>java.util.stream.StreamSupport</code> et <code>java.util.Spliterators</code></p>
+</div>
+<div class="listingblock">
+<div class="title">StreamSupport et Spliterators</div>
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">public List&lt;Person&gt; findPeopleOlderThan(Iterator&lt;Person&gt; people, int age) {
+	return StreamSupport.stream(
+    	Spliterators.spliteratorUnknownSize(people,
+        		Spliterator.DISTINCT |
+                Spliterator.IMMUTABLE |
+                Spliterator.NONNULL), false);
+    	.filter(p -&gt; p.age() &gt; age)
+        .collect(Collectors.toList());
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Le deuxième argument de la méthode <code>spliteratorUnknownSize</code> permet d&#8217;indiquer les caractéristiques de l&#8217;itération : CONCURRENT, DISTINCT, IMMUTABLE, NONNULL, ORDERED, SIZED, SORTED et SUBSIZED (plus d&#8217;informations dans la <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Spliterator.html">javadoc</a>).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cas_d_utilisation">Cas d&#8217;utilisation</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://twitter.com/cyril_delmas">@cyril_delmas</a> m&#8217;a montré un cas d&#8217;utilisation intéressant. Vous connaissez l&#8217;api XML DOM inclus dans le JDK (<code>org.w3c.dom</code>). Vous savez l&#8217;API qui ne connait pas les génériques, ni les collections : par exemple la classe <code>org.w3c.dom.NodeList</code>.</p>
+</div>
+<div class="paragraph">
+<p>Elle permet de représenter une liste de noeuds XML. Quelle galère si on veut la parcourir, la filter &#8230;&#8203;.</p>
+</div>
+<div class="listingblock">
+<div class="title">So old school &#8230;&#8203;</div>
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">	NodeList list = ...
+    for (int i=0;i&lt;list.getLength();i++) {
+        Node node = list.item(i)
+        ...
+    }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>L&#8217;idée est de créer un <code>NodeListIterator</code> :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">public class NodeListIterator implements Iterator&lt;Node&gt; {
+
+    private final NodeList nodeList;
+    private final int size;
+    private int index = 0;
+
+    public NodeListIterator(NodeList nodeList) {
+        this.nodeList = nodeList;
+        this.size = nodeList.getLength();
+    }
+
+    @Override
+    public boolean hasNext() {
+        return size &gt; index;
+    }
+
+    @Override
+    public Node next() {
+        if (!hasNext()) {
+            throw new NoSuchElementException("No more item in the list");
+        }
+        Node node = nodeList.item(index);
+        index += 1;
+        return node;
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>On peut alors utiliser la méthode décrite précedemment pour obtenir un <code>Stream</code> depuis une <code>NodeList</code> :</p>
+</div>
+<div class="listingblock">
+<div class="title"><code>NodeList</code> et <code>Stream</code></div>
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">	NodeList list = ...
+    Stream stream = StreamSupport.stream(
+    	Spliterators.spliteratorUnknownSize(
+        	new NodeListIterator(list),
+            Spliterator.DISTINCT |
+            Spliterator.IMMUTABLE |
+            Spliterator.NONNULL), false);</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Et voilà !</p>
+</div>
+</div>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2015/08/31/Java-8-Stream-et-Iterator.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2015/08/31/Java-8-Stream-et-Iterator.html</guid><category><![CDATA[java]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Mon, 31 Aug 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Migration de WordPress vers HubPress]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_constat">Constat</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Il y 4 ans, je décidais de commencer un blog. Au début, j&#8217;ai écrit pas mal d&#8217;articles en particulier sur les conférences auxquelles j&#8217;ai pu assistées, puis un peu moins souvent, puis encore moins souvent &#8230;&#8203; En 2014, j&#8217;ai écrit un seul article, et en 2015, c&#8217;est le premier !</p>
+</div>
+<div class="paragraph">
+<p>Écrire des articles, ça prend du temps&#8230;&#8203; Pourtant, les sujets ne manquent pas ! A l'époque, j&#8217;avais choisi (rapidement) <a href="http://wordpress.com">WordPress</a> pour créer mon site. Et en prenant un peu de recul, c&#8217;est pas forcément l&#8217;idéal pour écrire des articles techniques (ne parlons pas d'écrire du code source). Depuis, j&#8217;ai découvert le format Asciidoc pour écrire de façon plus efficace. Dans le cadre d&#8217;un blog, ça serait un moyen de gagner un peu de temps&#8230;&#8203; mais WordPress ne le supporte pas.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_hubpress">Hubpress</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>En baignant dans l'écosystème Asciidoctor, j&#8217;ai découvert <a href="http://hubpress.io">Hubpress</a>, une application web se basant sur <strong>github</strong> pour l&#8217;hébergement et sur <strong>asciidoc</strong> pour le format des articles. Pour moi, c&#8217;est le couple parfait pour un blog technique. En plus, HubPress, c&#8217;est simple et efficace, tout ce que j&#8217;aime.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_migration">Migration</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Dès lors, j&#8217;ai décidé de migrer les articles de mon ancien blog : <a href="http://javaonemorething.wordpress.com" class="bare">http://javaonemorething.wordpress.com</a>. Les étapes ont été les suivantes :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Exporter le contenu de WordPress au format XML depuis l&#8217;interface d&#8217;administration</p>
+</li>
+<li>
+<p>Extraire les articles au format HTML et les convertir en Asciidoc, grâce à une petite routine que j&#8217;ai dévéloppée <a href="http://github.com/binout/Wordpress-exit">Wordpress-Exit</a></p>
+</li>
+<li>
+<p>Créer mon site HubPress en forkant le repository (tout est bien expliqué dans la documentation du projet)</p>
+</li>
+<li>
+<p>Committer mes articles au format Asciidoc dans le répertoire ´_posts´</p>
+</li>
+<li>
+<p>Utiliser l&#8217;interface d&#8217;administration pour retoucher quelques articles et les publier.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Et voilà le résultat :</p>
+</div>
+<div class="paragraph">
+<p><a href="http://binout.github.io/javaonemorething">http://binout.github.io/javaonemorething</a></p>
+</div>
+<div class="paragraph">
+<p>Maintenant plus d&#8217;excuses pour écrire des articles plus souvent !</p>
+</div>
+</div>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2015/08/07/Migration-de-WordPress-vers-HubPress.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2015/08/07/Migration-de-WordPress-vers-HubPress.html</guid><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Fri, 07 Aug 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Asciidoctor et moi, et vous ?]]></title><description><![CDATA[<div class="paragraph">
+<p>Depuis quelques mois, j&#8217;ai découvert un super projet <strong><a href="http://asciidoctor.org/">Asciidoctor</a></strong>. Et non ce n&#8217;est pas le tout dernier framework &#8230;&#8203; mais un projet qui vous aide à écrire de la documentation technique.</p>
+</div>
+<div class="paragraph">
+<p>Et c&#8217;est vraiment fun !</p>
+</div>
+<div class="paragraph">
+<p>Pour vous convaincre, j&#8217;ai eu l&#8217;opportunité de faire des présentations pour deux conférences : <strong><a href="http://www.jugsummercamp.org/">JugSummerCamp</a></strong> et <strong><a href="http://www.bdx.io/#!/home">Bdx.io</a></strong>.</p>
+</div>
+<div class="paragraph">
+<p>Vous trouverez les slides sur mon projet github dédié :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://binout.github.io/asciidoctor-quickie/" class="bare">http://binout.github.io/asciidoctor-quickie/</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Et comme j&#8217;ai vraiment adhéré à Asciidoctor, j&#8217;ai commencé à coder une tâche Ant (et oui certains font encore du Ant) pour convertir vos documents en Asciidoc vers du html, docbook, &#8230;&#8203; dans le même esprit que le <a href="https://github.com/asciidoctor/asciidoctor-maven-plugin">plugin maven</a>.</p>
+</div>
+<div class="paragraph">
+<p>Mon travail a été reconnu car <em>Dan Allen</em>, le leader du projet Asciidoctor, m&#8217;a proposé d&#8217;intégrer officiellement le projet.</p>
+</div>
+<div class="paragraph">
+<p>Vous trouverez donc sur le github de Asciidoctor, le projet <strong>Asciidoctor-ant</strong> :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/asciidoctor/asciidoctor-ant" class="bare">https://github.com/asciidoctor/asciidoctor-ant</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>La version 1.5.0 est disponible sur <a href="http://repo1.maven.org/maven2/org/asciidoctor/asciidoctor-ant/1.5.0/">Maven Central</a>.</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2014/10/12/Asciidoctor-et-moi-et-vous.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2014/10/12/Asciidoctor-et-moi-et-vous.html</guid><category><![CDATA[asciidoctor]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sun, 12 Oct 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Daiquiri : résolution de l'année]]></title><description><![CDATA[<div class="paragraph">
+<p>Non ma résolution de l&#8217;année n&#8217;est pas de boire des cocktails daiquiri !</p>
+</div>
+<div class="paragraph">
+<p>Pour cette année 2013, je me suis donné comme résolution de commencer un projet personnel open source. Je ne veux pas avoir trop d&#8217;ambition pour ce projet, l&#8217;idée est de surtout expérimenter la mise en place une usine logicielle avec les outils "cloud" d&#8217;aujourd&#8217;hui : github, cloudbees.</p>
+</div>
+<div class="paragraph">
+<p>Pourquoi Daiquiri ? C&#8217;est le nom de la librairie utilitaire pour les tests unitaires, que je vous propose. Vous allez me dire mais il y en a déjà plein ! Oui c&#8217;est vrai mais avec cette librairie je veux proposer des solutions à des problèmes bien précis là où les autres s&#8217;arrêtent.</p>
+</div>
+<div class="paragraph">
+<p>J&#8217;ai donc commencé une première implémétation de Daiquiri, en solutionnant un premier problème :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>comment moquer la factory de javax.naming.InitialContext pour vos tests unitaires ?</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Exemple :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">package org.daiquiri.examples;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+public class LicenseChecker {
+	static final String MAX_LICENSE = "MAX_LICENSE";
+    private int currentNbUsers = 0;
+
+    public LicenseChecker(int nbUsers) {
+    	currentNbUsers = nbUsers;
+    }
+
+    public boolean canAddUsers(int nbNewUsers) throws NamingException {
+    	Integer maxLicense = (Integer) new InitialContext().lookup(MAX_LICENSE);
+        return currentNbUsers + nbNewUsers &lt;= maxLicense;
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Les frameworks de mock classiques ne savent pas faire simplement, voici la Solution avec Daiquiri :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">package org.daiquiri.examples;
+
+import static org.daiquiri.Daiquiri.Naming.*;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import javax.naming.InitialContext;
+
+public class LicenseCheckerTest {
+	LicenseChecker checker = new LicenseChecker(10);
+
+    @Test
+    public void can_add_users_return_true() throws Exception{
+    	InitialContext mockContext = mockInitialContext();
+        mockContext.bind(LicenseChecker.MAX_LICENSE, new Integer(15));
+        Assert.assertTrue(checker.canAddUsers(4));
+    }
+
+    @Test
+    public void can_add_users_return_false() throws Exception{
+    	InitialContext mockContext = mockInitialContext();
+        mockContext.bind(LicenseChecker.MAX_LICENSE, new Integer(15));
+        Assert.assertFalse(checker.canAddUsers(6));
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Vous pouvez trouver les sources sous mon repository github :</p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/binout/daiquiri" class="bare">https://github.com/binout/daiquiri</a></p>
+</div>
+<div class="paragraph">
+<p>Et un projet d&#8217;examples :</p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/binout/daiquiri-examples" class="bare">https://github.com/binout/daiquiri-examples</a></p>
+</div>
+<div class="paragraph">
+<p>La site de Daiquiri toujours en utilisant github (branche gh-pages du projet) :</p>
+</div>
+<div class="paragraph">
+<p><a href="http://binout.github.io/daiquiri/" class="bare">http://binout.github.io/daiquiri/</a></p>
+</div>
+<div class="paragraph">
+<p>L&#8217;intégration continue est sous BuildHive, proposé gratuitement par Cloudbees et qui est permet en click de mettre son projet sous une version simplifiée de Jenkins adaptée pour github. (Kohsuke en avait parlé à la jenkins conférence en avril l&#8217;année dernière) :</p>
+</div>
+<div class="paragraph">
+<p><a href="https://buildhive.cloudbees.com/job/binout/job/daiquiri/" class="bare">https://buildhive.cloudbees.com/job/binout/job/daiquiri/</a></p>
+</div>
+<div class="paragraph">
+<p>J&#8217;utilise un repository d&#8217;artefacts gratuit avec mon compte Cloudbees :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://repository-binout.forge.cloudbees.com/snapshot/org/daiquiri/daiquiri/">Snapshots</a></p>
+</li>
+<li>
+<p><a href="http://repository-binout.forge.cloudbees.com/release/org/daiquiri/daiquiri/">Release</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Et voici les lignes à mettre dans votre pom.xml, pour la version actuelle daiquiri-0.2 :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">	&lt;dependency&gt;
+    	&lt;groupId&gt;org.daiquiri&lt;/groupId&gt;
+        &lt;artifactId&gt;daiquiri&lt;/artifactId&gt;
+        &lt;version&gt;0.2&lt;/version&gt;
+        &lt;scope&gt;test&lt;/scope&gt;
+    &lt;/dependency&gt;
+    &lt;repository&gt;
+    	&lt;id&gt;binout-cloudbees-release&lt;/id&gt;
+        &lt;name&gt;binout-cloudbees-release&lt;/name&gt;
+        &lt;url&gt;https://repository-binout.forge.cloudbees.com/release/&lt;/url&gt;		&lt;/repository&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Et bien sûr, tout est open source sous licence Apache.</p>
+</div>
+<div class="paragraph">
+<p>Si vous avez des idées pour les prochaines versions, n&#8217;hésitez pas à me contacter sur twitter @binout</p>
+</div>
+<div class="paragraph">
+<p>Bon cocktail !</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2013/02/17/Daiquiri-resolution-de-lannee.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2013/02/17/Daiquiri-resolution-de-lannee.html</guid><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sun, 17 Feb 2013 00:00:00 GMT</pubDate></item><item><title><![CDATA[Devoxx World : Anvers et contre tous !]]></title><description><![CDATA[<div class="paragraph">
+<p>Après JavaOne 2011, Devoxx France 2012, le grand chelem continue avec Devoxx World à Anvers en Belgique. Cette fois-ci, je remercie le Bordeaux JUG qui a redistribué sa place avec un tirage au sort parmi ses membres : et c&#8217;est moi l&#8217;heureux gagnant !</p>
+</div>
+<div class="paragraph">
+<p>Cependant tout n&#8217;est pas si rose, car le chemin vers Devoxx fut un vrai chemin de croix :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Mardi 13 novembre 15h30 : départ de la gare de Bordeaux pour Paris</p>
+</li>
+<li>
+<p>17h30 : le TGV s&#8217;arrête à Poitiers, un accident a eu lieu sur la voie au niveau de Tours</p>
+</li>
+<li>
+<p>18h30 : le train repart mais c&#8217;est loupé pour ma correspondance pour Anvers</p>
+</li>
+<li>
+<p>20h : arrivée à Paris Montparnasse, je fais deux guichets pour échanger mon billet pour Anvers, en fait je dois aller à la gare du Nord</p>
+</li>
+<li>
+<p>20h30 : j&#8217;arrive à échanger mon billet pour un départ le lendemain matin à 6h25, mais sans garantie de place assise</p>
+</li>
+<li>
+<p>Mercredi 14 novembre 5h40 : après avoir passé la nuit chez ma gentille belle-soeur, je prends un taxi pour être au plus tôt à la gare</p>
+</li>
+<li>
+<p>6h15 : le train est annoncé avec 30 min de retard de retard à cause des grèves en Belgique</p>
+</li>
+<li>
+<p>6h30 : le train est annulée, Devoxx s'éloigne &#8230;&#8203;</p>
+</li>
+<li>
+<p>6h40 : le train est des-annulé, mais deux trains sont mergés en un seul, j&#8217;arrive à me caser dans une voiture pour Anvers à une place au hasard</p>
+</li>
+<li>
+<p>7h25 : le train démarre, l&#8217;espoir renaît !</p>
+</li>
+<li>
+<p>9h : à Bruxelles, le train s&#8217;arrête à nouveau&#8230;&#8203; Toujours la grève, les keynotes vont commencer&#8230;&#8203;</p>
+</li>
+<li>
+<p>10h : le train repart, les keynotes s&#8217;enchainent et je loupe le show et les annonces : la danse des robots, annonce de Devoxx UK &#8230;&#8203;</p>
+</li>
+<li>
+<p>11h : le train arrive enfin à Anvers &#8230;&#8203;.mais j&#8217;oublie ma sacoche à la descente du train, je la récupère de justesse avant que le train ne reparte vers Amsterdam, ouf&#8230;&#8203;</p>
+</li>
+<li>
+<p>11h40 : après avoir récupéré ma chambre, je prends le tram pour le Metropolis et Devoxx commence enfin pour moi mais les keynotes sont finies&#8230;&#8203;snif&#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Bref, pour un premier Devoxx, c&#8217;est un bien beau bizutage ! Mais après cette première journée, ça valait le coup d&#8217;insister : le lieu est super sympa (complexe de cinéma), l&#8217;organisation est excellente, les confs de très bonne qualité : javaee7, jdk8, Arquillian &#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/11/20121114-225928.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/11/20121114-225928.jpg" alt="20121114-225928.jpg"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/11/14/Devoxx-World-Anvers-et-contre-tous.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/11/14/Devoxx-World-Anvers-et-contre-tous.html</guid><category><![CDATA[DevoxxBe]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Wed, 14 Nov 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Jug Summer Camp 2012]]></title><description><![CDATA[<div class="paragraph">
+<p>Pour la deuxième année consécutive, j&#8217;ai pu assister à la 3ème édition du <a href="https://sites.google.com/site/jugsummercamp/">JUG Summer Camp</a> à La Rochelle, le vendredi 14 septembre.</p>
+</div>
+<div class="paragraph">
+<p>Et encore une fois, j&#8217;ai appris plein de choses ! Pour résumer cette journée, j&#8217;ai choisi de faire un "cloud" de logos et d&#8217;images :</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/09/jug-summer-camp-2012-001.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/09/jug-summer-camp-2012-001.png" alt="image" title="Jug Summer Camp 2012.001"></span></a></p>
+</div>
+<div class="paragraph">
+<p>Je vous laisse le loisir de "googler" les frameworks ou sujets que vous ne connaissez pas.</p>
+</div>
+<div class="paragraph">
+<p>Par ailleurs, je tiens à féliciter l&#8217;organisation pour l&#8217;introduction de quickies et surtout de très bonne qualité, en particulier :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://sites.google.com/site/jugsummercamp/presentations#Pourquoi">Pourquoi et comment moi, développeur Java, j’ai appris JavaScript</a> par Christophe Jollivet  (les <a href="http://fr.slideshare.net/jollivetc/pourquoi-et-comment-jai-appris-javascript-14348576">slides</a>)</p>
+</li>
+<li>
+<p><a href="https://sites.google.com/site/jugsummercamp/presentations#CRaSH">CRaSH, un shell extensible pour gérer la JVM et vos applications</a> par Arnaud Héritier (les <a href="http://fr.slideshare.net/aheritier/crash-jugsummercamp-2012-quickie">slides</a>)</p>
+</li>
+<li>
+<p><a href="https://sites.google.com/site/jugsummercamp/presentations#h-ubu">h-ubu : CDI pour JavaScript</a> par Clément Escoffier (les <a href="http://fr.slideshare.net/clement.escoffier/hubu-cdi-in-javascript">slides</a>)</p>
+</li>
+<li>
+<p><a href="https://sites.google.com/site/jugsummercamp/presentations#24">24 plugins chrono </a> par Romain Maton (les <a href="http://fr.slideshare.net/rmat0n/24-plugins-chrono-jug-summer-camp-2012">slides</a>)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Encore merci à Serli et Google pour cette conférence qui permet de se re-motiver après les vacances :-)</p>
+</div>
+<div class="paragraph">
+<p>A l&#8217;année prochaine.</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/09/23/Jug-Summer-Camp-2012.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/09/23/Jug-Summer-Camp-2012.html</guid><category><![CDATA[JugSummerCamp]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sun, 23 Sep 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Tuning JBoss 5.1.0 GA et EJB3]]></title><description><![CDATA[<div class="paragraph">
+<p>Il y a quelques temps, j&#8217;avais lancé une bouteille à la mer sur twitter :</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/08/tweet_bottle.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/08/tweet_bottle.png?w=300" alt="image" title="tweet_bottle"></span></a></p>
+</div>
+<div class="paragraph">
+<p>En effet, dans le cadre d&#8217;une migration EJB2 &#8658; EJB3 (et oui tout le monde n&#8217;est pas encore en JavaEE 6 &#8230;&#8203;.) sur JBoss 5.1.0 GA, j&#8217;ai effectué quelques tests de performance  à iso-application (avec <a href="http://www.neotys.fr/product/overview-neoload.html">NeoLoad</a> ) et là &#8230;&#8203; BANG &#8230;&#8203;. 20 à 30 % de plus en EJB3 !  Après quelques googles, il n&#8217;y a pas de benchs connus sous JBoss qui montre cet écart donc je creuse un peu en lisant une documentation de tuning de JBoss EAP par exemple.</p>
+</div>
+<div class="paragraph">
+<p>Dès lors, je découvre que par défaut JBoss sérialize/désérialize tous les appels EJB3 même pour des EJBs locaux, ce qui est principalement le cas dans notre application. Mais qu&#8217;une "option magique" a été ajouté suite à une feature request <a href="https://issues.jboss.org/browse/EJBTHREE-2110">EJBTHREE-2110</a> :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>org.jboss.ejb3.IsLocalInterceptor.passByRef=true</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Si on l&#8217;active, la sérialization/désérialization est évitée pour les appels locaux. Super, ça va résoudre tous mes problèmes et donc je refais mes tests et &#8230;&#8203; aucun changement sur les résultats. En fait en lisant de plus près la feature request, elle a été ajouté uniquement à JBoss EAP 5.1 (version avec support).</p>
+</div>
+<div class="paragraph">
+<p>Par contre, merci à Carlo de Wolf -&#8594;<a href="http://javaonemorething.files.wordpress.com/2012/08/carlo.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/08/carlo.png" alt="image" title="carlo"></span></a> qui a publié le <a href="https://issues.jboss.org/secure/attachment/12335513/EJBTHREE-2110.patch">patch</a> à appliquer sur la version 1.3.3 de jboss-ejb3-core. Donc en reprenant les sources de jboss-ejb3-core et une petite bataille avec Maven car les repository JBoss sont un peu "deprecated" (Cf . <a href="https://community.jboss.org/en/build/blog/2011/06/01/blocking-repositoryjbossorgmaven2" class="bare">https://community.jboss.org/en/build/blog/2011/06/01/blocking-repositoryjbossorgmaven2</a>), j&#8217;obtiens un "jboss-ejb3-core.jar" qui peut être copié en lieu et place dans "common/lib" de JBoss.</p>
+</div>
+<div class="paragraph">
+<p>En conclusion,</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>en patchant "jboss-ejb3-core.jar" danns mon instance JBoss</p>
+</li>
+<li>
+<p>en activant l&#8217;option "-D=org.jboss.ejb3.IsLocalInterceptor.passByRef=true"</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>j&#8217;obtiens des résultats encore meilleurs en EJB3 qu&#8217;en EJB2 (5 à 10%), c&#8217;est bon la migration est OK et nous venons de faire un pas vers le présent !</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/08/21/Tuning-JBoss-510-GA-et-EJB3.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/08/21/Tuning-JBoss-510-GA-et-EJB3.html</guid><category><![CDATA[JBoss]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 21 Aug 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[DevoxxFr : Code Story]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Le deuxième jour de Devoxx, c&#8217;est le vrai départ, ça se voit avec l&#8217;affluence par rapport au premier jour des universités. Et ça commence par un grand rassemblement de tous les participants devant une scène et trois écrans géants, ça rappelle vraiment JavaOne à San Francisco (il manque juste la musique à fond). Après des keynotes plutôt intéressantes, c&#8217;est le moment de choisir son agenda, le choix n&#8217;est pas facile &#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p>Et bien pour commencer, je choisis : <a href="http://www.code-story.net/">Code Story</a> ! En effet, de ma lointaine province, j&#8217;ai un peu suivi l&#8217;initiative menée par David Gageot et Jean-Laurent de Morlhon : faire un concours pour recruter deux développeurs pour "live" coder pendant deux jours avec eux durant Devoxx. Après plusieurs tours de sélection, c&#8217;est Eric et Sébastien Lemerdy qui sont les heureux "gagnants" lors de la finale au <a href="http://www.code-story.net/2012/02/17/CodeStory-au-ParisJug.html">Paris JUG</a>.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/05/codestory.jpeg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/05/codestory.jpeg?w=300" alt="image" title="codestory"></span></a></p>
+</div>
+<div class="paragraph">
+<p>Un peu intrigué, je décide donc d&#8217;assister au début du "live coding" : le but est de coder sur deux jours (9h-18h) une application web qui va raconter le projet en cours, en listant les commits depuis GitHub, les builds depuis Jenkins&#8230;&#8203; en attribuant des badges pour le top commiteur, le commiteur le plus verbeux &#8230;&#8203;  Les règles imposées sont :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>un binôme en front qui font du live coding en expliquant à l&#8217;audience leur choix, un autre binôme en back qui lui code sans interaction avec le public, histoire d&#8217;avancer un peu plus vite</p>
+</li>
+<li>
+<p>travail en itération d&#8217;une heure avec 5 min d&#8217;introduction, 20 min pour un 1er binôme, 20 min suivante on change les binômes, puis 10 min de conclusion avec si possible une démo</p>
+</li>
+<li>
+<p>travail en pur TDD (même pour le javascript!)</p>
+</li>
+<li>
+<p>software factory : trello pour le kanban, github, jenkins et sonar (grâce à David)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Et c&#8217;est parti :</p>
+</div>
+<div class="paragraph">
+<p>Jean-Laurent : "bon on veut une appication web avec une page html"</p>
+</div>
+<div class="paragraph">
+<p>David : "ok, bon on écrit un test qui vérifie que la page index.html doit s&#8217;afficher" &#8594; le test est donc en erreur</p>
+</div>
+<div class="paragraph">
+<p>Jean-Laurent : "donc il nous faut maintenant un serveur pour faire marcher le test, WebSphere ? rires &#8230;&#8203;"</p>
+</div>
+<div class="paragraph">
+<p>Davie : "je propose d&#8217;utiliser <a href="http://docs.oracle.com/javase/6/docs/jre/api/net/httpserver/spec/com/sun/net/httpserver/package-summary.html">httpserver</a> de la JDK (ndlr : solution la plus simple pour faire marcher le test), et on utilise <a href="http://jersey.java.net/">Jersey</a> pour fournir les resources (jax-rs de JavaEE6)"</p>
+</div>
+<div class="paragraph">
+<p>Et ainsi de suite &#8230;&#8203;.. c&#8217;est vraiment très intéressant de les voir coder et surtout réfléchir aux choix d&#8217;implémentations. En plus d'être divertissant (car il y a un jeu d&#8217;acteurs comique quand même), on apprend plein de petits trucs sur des frameworks, des outils : zombie.js, mocha, mustache, jersey, fest assert &#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Je suis revenu plusieurs fois pendant les deux jours, et c'était la vraie vie d&#8217;un projet comme ce moment de solitude (environ 20 min) pour faire marche la css (test/css au lieu de text/css, la loose &#8230;&#8203;). Malheureusement, je n&#8217;ai pas vu la dernière session pour la conclusion finale mais en tout cas j&#8217;ai pu voir l&#8217;application déployée sur Heroku, <a href="http://empty-samurai-5740.herokuapp.com/index.html">cliquez ici</a> !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/05/codestory-capture.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/05/codestory-capture.png?w=300" alt="image" title="codestory-capture"></span></a></p>
+</div>
+<div class="paragraph">
+<p>Si vous voulez voir les sources, elles sont dispo sous <a href="https://github.com/dgageot/CodeStoryDevoxx" class="bare">https://github.com/dgageot/CodeStoryDevoxx</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_en_tout_cas_strong_un_grand_bravo_ces_4_d_veloppeurs_strong">En tout cas, <strong>un grand BRAVO à ces 4 développeurs !</strong></h3>
+
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/05/06/DevoxxFr-Code-Story.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/05/06/DevoxxFr-Code-Story.html</guid><category><![CDATA[DevoxxFr]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sun, 06 May 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[DevoxxFr Tools In Action]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Après les universités, plusieurs sessions de "Tools In Action" sont proposées. D&#8217;une durée de 30 min, elles permettent de découvrir rapidement un framework ou un outil.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tester_une_application_web_avec_selenium_2_selenium_grid_et_testng">Tester une application Web avec Selenium 2, Selenium Grid et TestNG</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Mathilde Lemee nous fait une démonstration d&#8217;utilisation de Selenium 2 pour automatiser du tests IHM web. Pas besoin de selenium IDE, la syntaxe est simple à écrire et on peut rapidement coder un test. Ensuite, elle conseille d&#8217;utiliser TestNG qui permet de paralléliser les tests d&#8217;IHM, qui sont souvent long surtout si on veut tester les différents navigateurs. Et si c&#8217;est encore trop long, on peut utiliser Selenium Grid qui permet de lancer les tests sur plusieurs machines virtuelles.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_chouchoutez_votre_code_javascript">Chouchoutez votre code javascript</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Romain Linsolas nous présente les outils et framework pour tester le javascript (oui oui c&#8217;est possible) et comment intégrer ses tests dans une intégration continue (Jenkins + Sonar). Super présentation, très concrète et en plus il fait une retranscription de son talk dans son <a href="http://linsolas.free.fr/wordpress/index.php/2012/04/chouchoutez-votre-code-javascript/">blog</a> !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.slideshare.net/linsolas/devoxx-java-script1280720">Lien vers les slides</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_r_aliser_des_tests_de_charge_avec_gatling">Réaliser des tests de charge avec Gatling</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Cela fait plusieurs semaines que j&#8217;entends parler de ce framework qui monte, qui monte &#8230;&#8203;. C&#8217;est l&#8217;occasion d&#8217;en savoir plus grâce à Stéphane Landelle et Romain Sertelon. Gatling est écrit en Scala et à une approche différente de ses concurrents comme JMeter. Son point fort c&#8217;est l&#8217;optimisation de la gestion des threads. Les scenarii sont écrits et variabilisé en Scala, ce qui fait un peu peur au début après une petit démo, ç a devrait aller. Il existe aussi un recoder pour enregistrer le code du scénario, mais il faut quand reprendre le code à la main après. Le lancement peut se faire en ligne de commande, et les résultats sont présentés dans un joli rapport HTML5 avec plein d&#8217;effets sympas.</p>
+</div>
+<div class="paragraph">
+<p>Bref, même si tout ça est encore jeune, Gatling est très prometteur, il faut juste  ne pas être repoussé par un peu de Scala ;-) Pour en savoir plus, un petit tour sur le <a href="https://github.com/excilys/gatling">github</a>.</p>
+</div>
+</div>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/04/26/DevoxxFr-Tools-In-Action.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/04/26/DevoxxFr-Tools-In-Action.html</guid><category><![CDATA[DevoxxFr]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Thu, 26 Apr 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[DevoxxFr Université : Les 5 mercenaires du DevOps]]></title><description><![CDATA[<div class="paragraph">
+<p>Nous sommes le mercredi 18 avril, et oui j&#8217;ai réussi à aller à Devoxx France. Dans un précédent billet, j&#8217;avais dit que j&#8217;aurai tout fait pour m&#8217;inscrire et bien il a suffit de demander à mon manager : je remercie donc Lectra pour cette nouvelle aventure après JavaOne, il y a quelques mois.</p>
+</div>
+<div class="paragraph">
+<p>Le premier jour de #DevoxxFr est consacré aux conférences de type université, c&#8217;est-à-dire d&#8217;une durée de 3 heures pour apprendre un nouveau framework, un nouveau concept, une nouvelle méthodologie&#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p>Le matin, j&#8217;ai choisi "Les 5 mercenaires du DevOps" par Henri Gomez, Arnaud Héritier, Pierre-Antoine Grégoire, Gildas Cuisinier et Dimitri Baeli. Le but de cette conférence est de nous expliquer le concept de "DevOps" (Development and Operations) très à la mode en ce moment. Pour cela, le fil rouge est l&#8217;histoire du projet sh4rewith.me, un site de partage de fichier.</p>
+</div>
+<div class="paragraph">
+<p>Au début, comme souvent, la méthode à "la rache" est utilisée : ça marche sur un poste de dev, les tests sont fait en production, rien n&#8217;est automatisé.</p>
+</div>
+<div class="paragraph">
+<p>Puis vient "la raison" où l&#8217;on essaie d&#8217;appliquer les bonnes pratiques comme l&#8217;intégration continue, la documentation, des livrables réguliers et définis. Pour se jauger sur ces bonnes pratiques, on peut faire le <a href="http://french.joelonsoftware.com/Articles/TheJoelTest.html">joël test</a>, qui consiste en 12 questions sur le projet. Pour un score en-dessous de 10, il faut commencer à s&#8217;inquièter&#8230;&#8203; Pour mon projet actuel, j&#8217;ai calculé un score de 11/12 :-) Cependant, il reste encore des soucis :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>la mise en production reste un évènement rare</p>
+</li>
+<li>
+<p>les barrières sont encore nombreuses entre le marketing, les développeurs, la validation et la production</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Pour arriver au stade de "la sérenité", il faut travailler en mode DevOps :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Cycle court entre demande et mise en production</p>
+</li>
+<li>
+<p>Gestion de la dette technique</p>
+</li>
+<li>
+<p>Monitoring outillé</p>
+</li>
+<li>
+<p>Automatisation des étapes à risque</p>
+</li>
+<li>
+<p>Gestion complète de la configuration (source, conf, os)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>L&#8217;exemple concret dans cette conférence, c&#8217;est la mise en production du site sh4rewith.me pendant la conférence, en un clic depuis jenkins !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/04/20120425-203749.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/04/20120425-203749.jpg" alt="20120425-203749.jpg"></span></a></p>
+</div>
+<div class="paragraph">
+<p>D&#8217;ailleurs, Jenkins est l&#8217;outil qui permet de rassembler tous les interlocuteurs d&#8217;un projet, tout en préférant des instances différentes selon les besoins : une instance pour les dev, une instance pour la validation, une instance pour les ops.</p>
+</div>
+<div class="paragraph">
+<p>Chacun des interlocuteurs fait un petit retour d&#8217;expérience sur la mise en place du DevOps dans leur projet, en particulier Arnaud Héritier chez eXo Platform.</p>
+</div>
+<div class="paragraph">
+<p>L&#8217;université est vraiment très intéressante, et permet de rendre un peu plus concret le mouvement DevOps.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.slideshare.net/dbaeli/devoxx-devops-university2012">Lien vers les slides</a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/04/25/DevoxxFr-Universite-Les-5-mercenaires-du-DevOps.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/04/25/DevoxxFr-Universite-Les-5-mercenaires-du-DevOps.html</guid><category><![CDATA[DevoxxFr]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Wed, 25 Apr 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[DevoxxFr Université : CDI mis en pratique avec travers Seam Social et Weld OSGi]]></title><description><![CDATA[<div class="paragraph">
+<p>Que serai une conférence sans un petit talk sur CDI ;-), je choisis donc de passer une bonne partie de l&#8217;après-midi avec Antoine Sabot-Durand et Mathieu Ancelin pour une mise en pratique de CDI dans Seam Social puis Weld OSGi.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://seamframework.org/Seam3/SocialModule">SeamSocial</a></p>
+</div>
+<div class="paragraph">
+<p>C&#8217;est un module de Seam 3 constituant un socle générique pour construire des APIs d&#8217;accès aux réseaux sociaux Twitter, Facebook, LinkedIn&#8230;&#8203; Ce projet est d&#8217;ailleurs inspiré de SpringSocial (ils ont même repris les connecteurs).</p>
+</div>
+<div class="paragraph">
+<p>Pour se connecter à un réseau social, il faut appréhender :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>OAuth pour l&#8217;authentification (qui va sûrement devenir un standard)</p>
+</li>
+<li>
+<p>JSON car toutes les APIs sont en REST</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Pour JSON, Seam Social utilise le framework Jackson, qui propose un concept intéressant de mixin : externaliser les annotations de mapping JSON dans une autre classe et faire un binding avec le POJO resté tout clean, intéressant !
+Le module reprend tous les concepts de CDI : couplage lâche, découverte dynamique de modules, &#8230;&#8203;
+<a href="https://github.com/mathieuancelin/weld-osgi">Weld-OSGi</a></p>
+</div>
+<div class="paragraph">
+<p>Cette extension de JBoss Weld (qui sera d&#8217;ailleurs bientôt intégré à Weld-core) réunit le meilleur des deux mondes : dynamique, typesafe, annotations. Elle permet de cacher la complexité d&#8217;OSGi et de l&#8217;intégrer facilement à un code utilisant déjà CDI. Il suffit alors de déployer tout ça dans un serveur hybride comme JBoss 7. La démo est assez bluffante :</p>
+</div>
+<div class="videoblock">
+<div class="content">
+<iframe src="https://www.youtube.com/embed/zbgZp15Y-Eo?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="paragraph">
+<p>J&#8217;avais déjà assisté à la même présentation au JUG Summer Camp en septembre dernier et c&#8217;est toujours aussi intéressant mais j&#8217;ai encore du mal à imaginer l&#8217;utiliser en production &#8230;&#8203;.
+Au final, cette université nous a permis de faire un petit rappel sur CDI et surtout de voir des cas pratiques de mise en application. Mon seul bémol, un petit manque de rythme à certain moment et pas vraiment de lien entre la partie SeamSocial et la partie Weld OSGi.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://speakerdeck.com/u/mathieuancelin/p/cdi-par-la-pratique">Lien 1 vers les slides</a></p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.slideshare.net/antoinesd/cdi-mis-en-paratique-avec-seam-social-et-weld-osgi">Lien 2 vers les slides</a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/04/25/DevoxxFr-Universite-CDI-mis-en-pratique-avec-travers-Seam-Social-et-Weld-OSGi.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/04/25/DevoxxFr-Universite-CDI-mis-en-pratique-avec-travers-Seam-Social-et-Weld-OSGi.html</guid><category><![CDATA[DevoxxFr]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Wed, 25 Apr 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Jenkins User Conference @Paris]]></title><description><![CDATA[<div class="paragraph">
+<p>Aujourd&#8217;hui nous sommes réunis pour parler de notre outil de CI préféré Jenkins !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/04/20120417-130711.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/04/20120417-130711.jpg" alt="20120417-130711.jpg"></span></a></p>
+</div>
+<div class="paragraph">
+<p>Paris est la 2ème étape après San Francisco en octobre 2011. Koshuke (mr jenkins) et ses potes ont la bonne idée de placer cette conférence juste avant les grandes messes : javaone, devoxx,&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>La keynote d&#8217;ouverture est assurée par @koshukekawa en personne ! Comme à San Francisco, nous avons le droit à une petite session d&#8217;autocongratulation &#8230;&#8203;. entrecoupé d&#8217;un petit moment d'émotion pour @NicolasBacot qui reçoit de koshuke les peluches AngryBirds gagnées en parrainant un autre collègue.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/04/20120417-130812.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/04/20120417-130812.jpg" alt="20120417-130812.jpg"></span></a></p>
+</div>
+<div class="paragraph">
+<p>Une petite démo nous montre les dernières évolutions de Jenkins principalement en terme de UI : boutons save/apply, barre de navigation, popup, &#8230;&#8203;. Très sympa et simplifie la vie quotidienne des administrateurs Jenkins en épargnant quelques clics :-)</p>
+</div>
+<div class="paragraph">
+<p>On nous rappelle que maintenant on peut écrire des plugins en Ruby (au lieu de maven+java), et aussi utiliser gradle pour le build.</p>
+</div>
+<div class="paragraph">
+<p>Concernant l&#8217;avenir, koshuke nous fait une démo sur ses travaux en cours comme l&#8217;intégration à Github : login, création de jobs depuis le repo, build à partir de pull request, tout ça a l&#8217;air de déjà bien marché ! &#8230;&#8203;mais ce n&#8217;est pas encore public, juste en test sur buildhive.com.</p>
+</div>
+<div class="paragraph">
+<p>Au niveau UI, la prochaine étape c&#8217;est l&#8217;utilisation de TwitterBootstrap très à la mode en ce moment.</p>
+</div>
+<div class="paragraph">
+<p>Sinon, les autres points d&#8217;améliorations sont : le temps de démarrage et l&#8217;optimisation de la parallélisation des jobs sur les slaves.</p>
+</div>
+<div class="paragraph">
+<p>Applaudissements et c&#8217;est parti pour une journée full Jenkins !</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/04/17/Jenkins-User-Conference-Paris.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/04/17/Jenkins-User-Conference-Paris.html</guid><category><![CDATA[Jenkins]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 17 Apr 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Bref, j'ai vu Gavin King]]></title><description><![CDATA[<div class="paragraph">
+<p>Il  y a plus d&#8217;une semaine maintenant, le 2 février, j&#8217;ai vu <strong>Gavin King</strong> à &#8230;&#8203;.. Niort, oui oui Niort dans le Poitou-Charentes.</p>
+</div>
+<div class="paragraph">
+<p>Pour ceux qui n&#8217;ont pas fait "wouah Gavin King, le papa d&#8217;Hibernate et CDI", je rappelle que c&#8217;est l&#8217;une des 10 personnalités à connaître dans le monde Java comme le décrit Nicolas Martignole  dans un article sur le <a href="http://www.touilleur-express.fr/2012/01/14/10-personnalites-du-monde-java-a-connaitre">Touilleur Express</a>.</p>
+</div>
+<div class="paragraph">
+<p>Pour ceux qui ont fait "wouah à Niort, qu&#8217;est-ce que fait Gavin là-bas?", j&#8217;ai cru comprendre que Serli qui est le sponsor principal du Poitou-Charentes JUG (organisateur de l'évènement) est le principal contributeur du plug-in Eclipse pour le langage "Ceylon" (à confirmer).</p>
+</div>
+<div class="paragraph">
+<p>Et c&#8217;est de Ceylon que  Gavin est venu nous parler, son nouveau projet qu&#8217;il défend &#8230;&#8203; même jusqu'à Niort !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/02/ceylon_icon.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/02/ceylon_icon.png?w=150" alt="image" title="ceylon_icon"></span></a></p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.ceylon-lang.org/" class="bare">http://www.ceylon-lang.org/</a></p>
+</div>
+<div class="paragraph">
+<p>La présentation est en deux parties :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>pour découvrir le langage, rien de mieux que le HelloWord ici présenté dans Eclipse avec le plug-in associé, ceci permet de voir comment se présente la syntaxe. C&#8217;est <strong>David Festal</strong> qui fait la démo et permet de rapidement "entrer" dans l&#8217;univers de ce langage</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">void hello() {
+	print("Hello, World!");
+}</code></pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>puis, Gavin prend la parole pour nous parler des intentions de ce langage, de ses fondements, de sa conception, de son évolution, &#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Voici les principaux points que j&#8217;ai retenu :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Ceylon est un langage destiné aux grands projets avec de nombreux développeurs car l&#8217;avantage principal de Ceylon c&#8217;est son compilateur intelligent qui facilite la maintenance du code : plus de NPE, pas d&#8217;erreurs bizarres au runtime avec les generics, des messages d&#8217;erreur de compilation compréhensibles par les développeurs, &#8230;&#8203;</p>
+</li>
+<li>
+<p>Ceylon se veut concis et clair (sans aller dans l&#8217;extrème des nouveaux langages dynamiques qui veulent tout faire en une ligne)</p>
+</li>
+<li>
+<p>Ceylon propose un système de modules dans la même idée que le futur Java8</p>
+</li>
+<li>
+<p>Ceylon implémente le pattern Visiteur en natif : par exemple un switch sur une liste de sous-types sera en erreur dès lors qu&#8217;un nouveau sous-type sera créé</p>
+</li>
+<li>
+<p>Et comme dans tous les projets, tout est "type-safe" : par exemple, la déclaration d&#8217;un module est fait dans une classe avec complétion dans l&#8217;IDE !</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Après je n&#8217;ai pas forcément retenu tout les subtilités expliqués par Gavin mais le mieux, c&#8217;est de télécharge le langage et le plug-in Eclipse et s&#8217;amuser un peu.</p>
+</div>
+<div class="paragraph">
+<p>Concernant Gavin lui-même, comme d&#8217;habitude, c&#8217;est vraiment super excitant de voir en vrai de tels speakers. Dès sa prise de parole, tu es captivé (même si les slides sont pas forcément top). Dans son discours, il y a plein d&#8217;anecdotes de développeur Java, qui te parlent forcément (le célèbre "Ah ouais il a trop raison"). Tu réalises rapidement qu&#8217;il a déjà tout connu sur le langage Java et qu&#8217;il veut proposer une solution à toutes les limites de Java tout en conservant les grands principes.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/02/gavin_and_me.jpeg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/02/gavin_and_me.jpeg?w=180" alt="image" title="gavin_and_me"></span></a></p>
+</div>
+<div class="paragraph">
+<p>Bien sûr à la fin, je n&#8217;ai pas manqué l&#8217;occasion d&#8217;aller discuter un peu avec lui avec mon anglais rouillé. Il semble avoir compris quelques unes de mes questions, et puis je lui ai parlé un peu de JavaEE, JBoss, CDI &#8230;&#8203; mais tout ça semble derrière lui, j&#8217;ai l&#8217;impresssion qu&#8217;il est vraiment passé à autre chose et qu&#8217;il veut aller au bout de son projet avec Ceylon. Courage à lui, créer un langage est quand même le graal de tout développeur !</p>
+</div>
+<div class="paragraph">
+<p>Et pour garder un souvenir de ce moment, je lui ai fais signer un vieux livre Hibernate trainant dans la bibliothèque du bureau :-)</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2012/02/gavin_sign.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2012/02/gavin_sign.jpg?w=300" alt="image" title="gavin_sign"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2012/02/11/Bref-jai-vu-Gavin-King.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2012/02/11/Bref-jai-vu-Gavin-King.html</guid><category><![CDATA[DevoxxFr]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 11 Feb 2012 00:00:00 GMT</pubDate></item><item><title><![CDATA[Adam Bien : Real World Java EE Patterns Rethinking Best Practices]]></title><description><![CDATA[<div class="paragraph">
+<p>Comme annoncé dans un <a href="http://javaonemorething.wordpress.com/2011/10/08/day-three-rethinking-best-practices-with-javaee-6/">article précédent</a>, j&#8217;ai commencé la lecture d&#8217;un des livres de Adam Bien et &#8230;&#8203; en fait je l&#8217;ai dévoré très rapidement.</p>
+</div>
+<div class="paragraph">
+<p>Je souhaite donc faire une petite fiche de lecture mais je vous conseille fortement de le lire ! (à 20 euros sur <a href="http://www.amazon.de/Real-World-Patterns-Rethinking-Practices/dp/0557078326/ref=sr_1_1?ie=UTF8&amp;qid=1321947749&amp;sr=8-1">amazon.de</a>, ne vous inquiètez pas c&#8217;est bien en anglais). Pour les nouveaux, je rappelle que <a href="http://adam-bien.com/">Adam Bien</a> est un consultant allemand , membre actif de la spec javaee et un très bon speaker que j&#8217;ai découvert à JavaOne. Son discours est simple : il faut repenser tous les bests practices de j2ee ! Les architectures d&#8217;aujourd&#8217;hui doivent devenir plus simple, plus lean, avoir donc moins de couches et moins de code, et ceci grâce aux nouveaux concepts apportés par JavaEE5 et encore plus par JavaEE6.</p>
+</div>
+<div class="paragraph">
+<p>Le livre que j&#8217;ai choisi c&#8217;est le premier de la série "Rethinking Best Practices", sorti en 2009 : <strong>Real World Java EE Patterns Rethinking Best Practices.</strong></p>
+</div>
+<div class="paragraph">
+<p>Après un bref rappel sur l&#8217;histoire de j2ee et sur les nouveaux concepts apportés par JavaEE, la majeure partie du livre nous décrit différents patterns répondant à un problème pratique, classés par catégorie : couche métier, couche d&#8217;intégration et infrastructure. Certains sont des patterns connus repensés dans le contexte JavaEE, d&#8217;autres sont carrément d&#8217;anciens anti-patterns ! La lecture est vraiment agréable et au fil de l&#8217;eau, on trouve plein de petits astuces de développeurs :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>un interceptor pour checker les paramètres d&#8217;une méthode, ce qui permet d'éviter du code redondant (DRY : Dont Repeat Yourself)</p>
+</li>
+<li>
+<p>des annotations à la place de la javadoc, plus facile à manipuler pour la génération de documentation</p>
+</li>
+<li>
+<p>des builders statiques en classe interne pour rendre le code plus fluide</p>
+</li>
+<li>
+<p>utiliser Externalizable au lieu de Serializable pour des gains de performance</p>
+</li>
+<li>
+<p>des singletons à la façon JavaEE pour faire du cache.</p>
+</li>
+<li>
+<p>et bien d&#8217;autres &#8230;&#8203;.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Après avoir présenté ces patterns, Adam nous expose sa vision sur les architectures SOA en opposant les deux modèles :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>le traditionnel Service Driven Design, mais en simplifiant la plomberie et les indirections inutiles</p>
+</li>
+<li>
+<p>le nouveau Domain Driven Design, où l&#8217;entité est au coeur de la conception e n&#8217;est plus un pojo vide, très pratique pour les applications proche du besoin utilisateur,</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ce qui est intéressant, c&#8217;est qu&#8217;il défend les deux modèles car selon lui, tout dépend des contraintes du projet. Tout de même, il dégage un modèle lean commun que doit suivre un composant métier : l'<strong>ECB, Entity - Control - Boundary</strong> :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Boundary : c&#8217;est la façade directement en contact avec l&#8217;interface utilisateur, elle est totalement orientée business</p>
+</li>
+<li>
+<p>Control : c&#8217;est l&#8217;ensemble des services génériques qui sont réutilisables dans différents contextes (comme les CRUD)</p>
+</li>
+<li>
+<p>Entity : ce sont les entités avec (DDD) ou sans intelligence métier (SDD)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Au final, le conseil d&#8217;Adam tout au long du livre est de rester pragmatique, de ne pas complexifier l&#8217;architecture sans raison valable  (son célèbre "Explain it to an alien"). JavaEE , en totale rupture avec le modèle complexe de j2ee, est tout à fait adapté à cette philosophie.</p>
+</div>
+<div class="paragraph">
+<p>A suivre avec la lecture de son second livre : "Real World Java EE Night Hacks Dissecting the Business Tier", sorti en 2011, qui rentre plus en détails sur la base de JavaEE6 : CDI + EJB + JPA.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/11/press-adam-bien.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/11/press-adam-bien.png?w=300" alt="image" title="press-adam-bien"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/11/22/Adam-Bien-Real-World-Java-EE-Patterns-Rethinking-Best-Practices.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/11/22/Adam-Bien-Real-World-Java-EE-Patterns-Rethinking-Best-Practices.html</guid><category><![CDATA[book]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 22 Nov 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Devoxx France 2012 is born !]]></title><description><![CDATA[<div class="paragraph">
+<p>Voila JavaOne est déjà loin maintenant, mais la passion est toujours là et aujourd&#8217;hui j&#8217;ai trouvé un sujet pour continuer à blogger : Devoxx arrive en France !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.devoxx.com/display/DV11/Home">Devoxx</a> (anciennement JavaPolis), ça se passe en ce moment à Anvers, c&#8217;est la plus grande conférence européenne indépendante sur les techno Java. Et après un peu de teasing, Stephan Janssen (le papa de Devoxx) et 4 membres du ParisJUG (Nicolas Martignole, Antonio Goncalves, Zouheir Cadi, José Paumar) y ont annoncé ce matin la création de Devoxx France du 18 au 20 avril 2012 au coeur de Paris ! Plus d&#8217;infos : <a href="http://www.devoxx.com/display/FR12/Accueil" class="bare">http://www.devoxx.com/display/FR12/Accueil</a></p>
+</div>
+<div class="paragraph">
+<p>Il va falloir que je commence à trouver les arguments pour convaincre mon chef que c&#8217;est "the place to be" (et peut-être aussi ma moitié ;-) ) et puis sinon basta je prends 3 RTT et je me paie l&#8217;inscription ! (450 euros pour 3 jours).</p>
+</div>
+<div class="paragraph">
+<p>En tout cas, je félicite tout particulièrement Antonio Goncalves, qui a su réveiller ma passion de développeur Java un certain 30 mai 2011 avec une formation JavaEE 6.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/11/logo_devoxx_fr_ombre_web-300x154.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/11/logo_devoxx_fr_ombre_web-300x154.jpg" alt="image" title="logo_devoxx_fr_ombre_web-300x154"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/11/16/Devoxx-France-2012-is-born.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/11/16/Devoxx-France-2012-is-born.html</guid><category><![CDATA[DevoxxFr]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Wed, 16 Nov 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Mon palmarès de JavaOne 2011]]></title><description><![CDATA[<div class="paragraph">
+<p>Meilleurs speakers :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Adam Bien (@AdamBien)</p>
+</li>
+<li>
+<p>Kohsuke Kawaguchi (@kohsukekawa, attention quelques tweets en japonais)</p>
+</li>
+<li>
+<p>Dan Allen (@mojavelinux)</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Meilleures sessions :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Rethinking best practices with JavaEE 6 par Adam Bien</p>
+</li>
+<li>
+<p>JBoss AS 7 : The Death of The Slow par Andrew Lee Rubinger</p>
+</li>
+<li>
+<p>Continuous Integration with Jenkins par Kohsuke Kawaguchi</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Meilleurs frameworks :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Arquillian</p>
+</li>
+<li>
+<p>Weld</p>
+</li>
+<li>
+<p>OpenEJB</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Meilleurs serveurs d&#8217;application :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>JBoss AS 7</p>
+</li>
+<li>
+<p>Glassfish 3</p>
+</li>
+<li>
+<p>TomEE 1</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Meilleur espoir :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Le projet Jigsaw pour le JDK 8</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Meilleur souvenir :</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/duke.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/duke.jpg?w=300" alt="image" title="duke"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/11/Mon-palmares-de-JavaOne-2011.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/11/Mon-palmares-de-JavaOne-2011.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 11 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Four : Patterns for modularity]]></title><description><![CDATA[<div class="paragraph">
+<p>Session très décevante&#8230;&#8203;. Trois intervenants nous parlent de généralités sur les patterns à utiliser pour faire une application modulaire. Les concepts abordés ne sont pas nouveaux et je vous conseille plutôt de voir le compte rendu sur la session "Modularity in Enterprise", qui était bien plus intéressante avec un speaker de bien meilleure qualité !</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/10/Day-Four-Patterns-for-modularity.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/10/Day-Four-Patterns-for-modularity.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Mon, 10 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Four : CDI in JavaSE]]></title><description><![CDATA[<div class="paragraph">
+<p>Dernière session de JavaOne 2011 (snif) et toujours du CDI (oui je sais, j&#8217;aime ça!). Cette fois-ci, deux intervenants suisses nous présentent l&#8217;utilisation de CDI dans un environnement SE.</p>
+</div>
+<div class="paragraph">
+<p>En fait, il existe une version de Weld dédiée au développement SE, et même une version d&#8217;Arquillian pour les tests ! Les fonctionnalités spécifiques sont :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>le scope thread : @ThreadScoped (besoin de définir le RunnableDecorator dans beans.xml)</p>
+</li>
+<li>
+<p>le bootstrap :</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>utiliser la classe StartMain de WeldSE et attendre pour l'évènement "ContainerInitialized"</p>
+</li>
+<li>
+<p>de manière programmatique avec la classe "WeldContainer"</p>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Ensuite, ils nous expliquent différents cas d&#8217;utilisation solutionnés avec CDI comme un CommandLine en attente d&#8217;une entrée utilisateur.</p>
+</div>
+<div class="paragraph">
+<p>On peut même utiliser JPA avec CDI dans une application SE, la démo est très complète.</p>
+</div>
+<div class="paragraph">
+<p>Petit bonus, ils nous parlent du "maven shade plugin" permettant de packager en un seul jar une application desktop (packaging avec tous les dépendances et définition de la main class, ça rappelle le onejar de l'époque).</p>
+</div>
+<div class="paragraph">
+<p>Pour un peu de code, Cf. un <a href="http://relation.to/13027.lace">post</a> de Gavin King.</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/10/Day-Four-CDI-in-JavaSE.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/10/Day-Four-CDI-in-JavaSE.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Mon, 10 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Four : CDI Today and Tomorrow]]></title><description><![CDATA[<div class="paragraph">
+<p>La session est un débat sur CDI. Le panel est composé de représentants de chacune des implémentations :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Peter Muir pour Weld de JBoss</p>
+</li>
+<li>
+<p>Dave Blevins pour OpenWebBeans de Apache TomEE</p>
+</li>
+<li>
+<p>Reza Rahman pour CanDI de Resin</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Première question : Qu&#8217;apporte CDI à la platforme JavaEE ?</p>
+</div>
+<div class="paragraph">
+<p>En bref, CDI apporte l&#8217;injection de dépendances et la gestion des scopes. Les extensions permettent beaucoup de choses : on peut même réécrire complètement des framework comme Struts ou Tapestry. CDI permet de rendre les applications plus facilement testables comme avec Arquillian (encore une fois, c&#8217;est vraiment le framework star de JavaOne). CDI est complètement typé.</p>
+</div>
+<div class="paragraph">
+<p>Deuxième question : Des conseils pour les débutants ?</p>
+</div>
+<div class="paragraph">
+<p>Le debuging n&#8217;est pas forcement facile, mais les logs sont très utiles. Peter Muir affirme que les logs de Weld sont très explicites. Ils conseillent tous d&#8217;utiliser au maximum les possibilités de l&#8217;IDE (JBossTools pour Eclipse). Reza nous conseille d&#8217;aller voir son blog où il publie des articles avec des best practices (<a href="http://www.rahmannet.net/downloads/cdi_tour.pdf" class="bare">http://www.rahmannet.net/downloads/cdi_tour.pdf</a>).</p>
+</div>
+<div class="paragraph">
+<p>Troisième question : JavaEE, Seam, Spring, Guice, CDI, comment choisir ?</p>
+</div>
+<div class="paragraph">
+<p>Le panel ne veut pas forcément faire de choix, l&#8217;idée c&#8217;est qu&#8217;en fonction des besoins, chaque framework apporte des solutions : on peut toujours faire marcher Spring avec CDI. Concernant Guice, c&#8217;est qu&#8217;un sous-ensemble de CDI, qui s&#8217;en est largement inspiré. Mais CDI apporte un concept plus fort que juste l&#8217;injection de dépendance comme la gestion du cycle de vie des beans, des évènements et les extensions.</p>
+</div>
+<div class="paragraph">
+<p>Quatrième question : Est-ce que CDI doit être  intégré à JavaSE ?</p>
+</div>
+<div class="paragraph">
+<p>Pour le moment, toutes les implémentations possèdent un fonctionnement en JavaSE mais la spec ne le définit pas, peut être en CDI 1.1. En tout cas, il semble trop tôt pour pouvoir l&#8217;intégrer dans la platform SE et c&#8217;est pas sûr que ce soit le bon choix&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Cinquième question : JavaEE 7 theme is cloud, que va apporter CDI ?</p>
+</div>
+<div class="paragraph">
+<p>CDI 1.1 va sortir avec JavaEE 7, il n&#8217;a pas forcément de lien avec le cloud. Pour le moment, 80% de JavaEE est extensible avec CDI : les servlets et jax-rs par exemple ne sont pas concernés. Peut-être que les extensions peuvent répondre à des problématiques du cloud comme le multitenancy&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Conclusion : Très bon débat où on a pu remarqué que les trois implémentations sont d&#8217;accord sur les grands principes et sur l'évolution de CDI. CDI 1.0 est déjà très bien rempli et CDI 1.1 apportera quelques retouches mais pas forcément liées au cloud (tant mieux ;-) ).http://javaonemorething.files.wordpress.com/2011/10/weld.png[<span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/weld.png" alt="image" title="weld"></span>]</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/openwebbeans.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/openwebbeans.png?w=300" alt="image" title="openwebbeans"></span></a></p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/caucho.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/caucho.png?w=300" alt="image" title="caucho"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/10/Day-Four-CDI-Today-and-Tomorrow.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/10/Day-Four-CDI-Today-and-Tomorrow.html</guid><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Mon, 10 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Two : JSR 107 The new caching standard]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenants : un gars de Oracle pour Coherence et un gars de Terracota pour EhCache</p>
+</div>
+<div class="paragraph">
+<p>La JSR 107 est prévue d'être intégrée à JavaEE 7 et sera incluse dans la JSR 342. Elle est déjà utilisable dans JavaEE 6 ou Spring et même dans n&#8217;importe quelle application java. Elle nécessite juste la version 6 de java.</p>
+</div>
+<div class="paragraph">
+<p>L&#8217;implémentation est (sera,ndlr) sous license Apache 2. Et on espére que les grands frameworks de cache la suivront : ehcache, coherence, infispan, extremescalr, gemfire&#8230;&#8203; Et là on commence à comprendre que cela ne va pas être simple pour que tout le monde utilise le standard&#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p>En tout cas, l&#8217;API javax.cache est disponible dans Maven Central en 0.3.SNAPSHOT.</p>
+</div>
+<div class="paragraph">
+<p>On nous rappelle que cette JSR ne couvre pas le cache pour le data grid, c&#8217;est la JSR 347 qui aura le prérequis de définir la topologie.</p>
+</div>
+<div class="paragraph">
+<p>Petite description de l&#8217;API :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>classloading : comme le cache peut contenir des données partagées par plusieurs threads, on peut spécifier un classloader lors de la création du cache</p>
+</li>
+<li>
+<p>support du ServiceLoader pour le choix de l&#8217;implémentation</p>
+</li>
+<li>
+<p>possibilité de définir des propriétés lors de la création du cache : taille, durée, &#8230;&#8203;</p>
+</li>
+<li>
+<p>ensemble d&#8217;annotations : @CachePut, @CacheResult, @CacheRemoveEntity, @CacheRemoveAll</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Note personnel : j&#8217;ai essayé de trouver l&#8217;implémentation de référence pour jouer, j&#8217;ai pas trouvé :-(</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/ehcache.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/ehcache.jpg" alt="image" title="ehcache"></span></a>http://javaonemorething.files.wordpress.com/2011/10/coherence.gif[<span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/coherence.gif" alt="image" title="coherence"></span>]</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Two-JSR-107-The-new-caching-standard.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Two-JSR-107-The-new-caching-standard.html</guid><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Two : JPA 2.1]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenante : Linda DeMichiel, spec lead de JavaEE 7</p>
+</div>
+<div class="paragraph">
+<p>Linda vient nous présenter les améliorations prévues dans JPA 2.1, et la spec semblent bien avancée !</p>
+</div>
+<div class="paragraph">
+<p>Au niveau des requêtes :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>outer joins avec les conditions "on"</p>
+</li>
+<li>
+<p>downcasting : permettant de caster un objet dans une requêtes, pratique pour les clauses where sur des sous types</p>
+</li>
+<li>
+<p>invocation de fonctions de base de donnée</p>
+</li>
+<li>
+<p>bulk update et delete pour JPQL et Criteria API !</p>
+</li>
+<li>
+<p>le support de l&#8217;invocation de procédures stockées avec @NamedStockedProcedureQuery (les dbas vont être contents)</p>
+</li>
+<li>
+<p>mapping pour les résultats des requêtes natives avec @SQLResultSetMapping</p>
+</li>
+<li>
+<p>la possibilité de définir des requêtes nommées dynamiquement</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Au niveau de l&#8217;API :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>CDI injection dans les EntityListeners, par exemple on peut envoyer un mail dans une méthode @PostPersist</p>
+</li>
+<li>
+<p>Persistence contextes désynchronizés</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Au niveau du mapping :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>multitenancy pour le cloud : JPA utilise un tenant id pour faire l&#8217;isolation lorsque les tenants partagent la même base et le même schéma</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Une version early draft a été présentée au JCP et JPA 2.1 sera intégre à JavaEE 7 prévue pour Q3 2012 (date-driven release!).</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/jpa21.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/jpa21.jpg?w=300" alt="image" title="jpa21"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Two-JPA-21.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Two-JPA-21.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Two : CDI 1.1]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenant : Peter Muir, RedHat @plmuir</p>
+</div>
+<div class="paragraph">
+<p>Peter Muir est le spec lead pour CDI 1.1, il prend la suite de Gavin King trop occupé avec son nouveau langage de programmation Ceylan.</p>
+</div>
+<div class="paragraph">
+<p>La session commence par une démo avec JBoss Forge, permettant de créer une application JavaEE très rapidement en ligne de colmmande : création du projet maven, création d&#8217;entité, choix de l&#8217;implementation pour JPA, activation de CDI, génération de l&#8217;ihm pour le CRUD&#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p>Peter veut aussi nous montrer le déploiement sur le cloud avec OpenShift de JBoss&#8230;&#8203; mais effet démo, il n&#8217;arrive pas à accèder à l&#8217;application déployée, dommage mais on lui fait confiance ;-)</p>
+</div>
+<div class="paragraph">
+<p>Ensuite, il passe aux nouveautés de CDI 1.1, dont la majeure le Global Ordering. En effet, dans CDI 1.0, on ne pouvait pas ordonner les interceptors ajoutés sur une classe, et parfois cela peut être gênant (par exemple, le logging est souvent le premier interceptor). Trois solutions dans CDI 1.1 :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>magic number : on ajoute un nombre absolu @Interceptor(37), pas la meilleure solution mais cela sera possible</p>
+</li>
+<li>
+<p>relative ordering : on utilise @OrderingQualifier et @Before(class)</p>
+</li>
+<li>
+<p>imperative ordering : on définit programmatiquement l&#8217;ordre des interceptors</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Peter explique que la spec de CDI 1.1 n&#8217;est qu&#8217;en version draft et qu&#8217;il reste des sujets pas encore abordés comme le bootstrap du container en environnement JavaSE, des DSL pour le déploiement des beans, la possibilité de définir le cycle de vie des contextes, le contrôle du scanning en xml ou avec @Veto&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Rendez vous en Q3 2012 avec JavaEE7.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/cdi11.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/cdi11.png?w=300" alt="image" title="cdi11"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Two-CDI-11.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Two-CDI-11.html</guid><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Three : The Road to JavaEE 7 : Is it all about the cloud ?]]></title><description><![CDATA[<div class="paragraph">
+<p>La session est un débat sur JavaEE 7 et le cloud. Le "panel" est composé de :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Adam Bien : consultant et java rockstar</p>
+</li>
+<li>
+<p>Reza Rahman : fondateur de Resin</p>
+</li>
+<li>
+<p>Emmanul Bernard : JBoss/RedHat, spec lead de BeanValidation entre autres</p>
+</li>
+<li>
+<p>Linda DeMichiel : spec lead de JavaEE 7</p>
+</li>
+<li>
+<p>Dave Blevins : fondateur de TomEE, qui vient d'être certifié JavaEE 6 Web Profile</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Le débat n&#8217;est pas trés engagé, tout le monde est d&#8217;accord pour dire qu&#8217;il ne faut pas se précipiter pour standardiser le déploiement d&#8217;application JavaEE dans le cloud. Le PaaS n&#8217;est pas encore assez mature et de toute manière, on peut déjà déployer une application JavaEE dand le cloud avec OpenShift de JBoss (en 1 min avec un git push selon Adam Bien, bluffant). Par contre, il manque toute de même la notion de multitenancy (normalement avec JPA 2.1).</p>
+</div>
+<div class="paragraph">
+<p>Seul petit point de divergence, la configuration des metadata pour le déploiement dans le cloud : XML or not ? Comme toujours, ça dépend du développeur&#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/javaee7.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/javaee7.jpg?w=300" alt="image" title="javaee7"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Three-The-Road-to-JavaEE-7-Is-it-all-about-the-cloud.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Three-The-Road-to-JavaEE-7-Is-it-all-about-the-cloud.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Three : Rethinking best practices with JavaEE 6]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenant : Adam Bien, java rock start et freelancer, @AdamBien, blog.adam-bien.com</p>
+</div>
+<div class="paragraph">
+<p>La révélation de la semaine ! Adam est tout d&#8217;abord un super orateur, la présentation était très bonne et pleine d&#8217;humour mais les idées toute aussi excellentes !</p>
+</div>
+<div class="paragraph">
+<p>Adam veut nous faire comprendre qu&#8217;il faut changer nos habitudes de développeurs des années 2000. Avec JavaEE 6, on peut grandement simplifier le code (selon lui, 80% du code). Voici ses conseils :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>Service service = new ServiceImpl()</code> : Pas besoin d&#8217;interfaces pour une seule implémentation, évite le binding inutile, l&#8217;indirection, et de toute manière on change jamais d&#8217;implémentation</p>
+</li>
+<li>
+<p>Empty delegates, empty layers are evil : Eviter les couches inutiles, les facades vides</p>
+</li>
+<li>
+<p>Stateless Architectures for Statefull Applications : Stateless n&#8217;est pas la seule possibilité pour une application</p>
+</li>
+<li>
+<p>Everything is extensible but nothing varies : Ne pas compliquer le code en le rendant trop générique, il faut le faire quand le besoin est là. Il est aussi facile de définir une interface après coup.</p>
+</li>
+<li>
+<p>Configuration over convention : si on utilise des conventions, cela fait moins de chose à écrire (comme Maven vs Ant)</p>
+</li>
+<li>
+<p>5 Mb server&#8230;&#8203;. And 50 Mb wars : pourquoi faire plus compliqué qu&#8217;un serveur EE (je vous rassure on ne parle pas de WebLogic ou WebSphere)</p>
+</li>
+<li>
+<p>Superfluous DAO : ce pattern n&#8217;a pu lieu d'être, JPA fait déjà l&#8217;encapsulation pour nous</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Pour lui, le cocktail idéal est : CDI + JPA + EJB + JAX-RS = The Productive Synergy.</p>
+</div>
+<div class="paragraph">
+<p>Concernant les tests, il conseille de ne pas utiliser d&#8217;embedded server, il faut tester directement dans le serveur (avec Arquillian ?). Il faut définir :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>des tests unitaires rapides à exécuter pour le développeur et à chaque build de l&#8217;intégration continue et</p>
+</li>
+<li>
+<p>des tests d&#8217;intégrations plus longs à exécuter périodiquement sur l&#8217;intégration continue</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Le plugin Maven "failsale" est apparemment très utile pour faire cela.</p>
+</div>
+<div class="paragraph">
+<p>Le taux de couverture du code n&#8217;est pax le but ultime, il faut préferer la couverture du code complexe. Sonar est très pratique pour identifier le code complexe, par exemple avec la fonctionnalité "clouds".</p>
+</div>
+<div class="paragraph">
+<p>Pour les tests de performance, il conseille de définir un projet maven dédié qui fait du stress test avec JMeter (prononcé "Jamita" dédicace pour Nico) et de stocker les résultats dans une base pour suivre l'évolution (graphiques avec JFreeChart).</p>
+</div>
+<div class="paragraph">
+<p>Bref, que de bonnes idées, de bonnes pratiques pour améliorer notre productivité, nos managers vont être contents !</p>
+</div>
+<div class="paragraph">
+<p>NB : je vous conseille de voir la vidéo sur Parleys ! Et je pense que je vais acheter son livre !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/adambien.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/adambien.jpg" alt="image" title="adambien"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Rethinking-best-practices-with-JavaEE-6.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Rethinking-best-practices-with-JavaEE-6.html</guid><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Three : Refactoring JavaEE 5 code to take advantage of JavaEE 6 features]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenants : deux personnes de "The Institue for Quantitative Social Science at Harvard University".</p>
+</div>
+<div class="paragraph">
+<p>La session est un retour d&#8217;expérience sur la migration d&#8217;une application JavaEE 5 "Dataverse" vers JavaEE 6, et en gros c&#8217;est plus simple :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>simplification des couches : les EJB peuvent être injectés directement dans les pages JSF pour les cas simples</p>
+</li>
+<li>
+<p>simplification du packagin : l&#8217;ear est devenu un war</p>
+</li>
+<li>
+<p>migration de la configuration en annotations</p>
+</li>
+<li>
+<p>simplification de la couche métier avec les nouvelles possibilités des EJBs</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Avec plus de détails pour la couche métier :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>utilisation de orphanRemoval=true de JPA 2.0 pratique pour la gestion des collections liées</p>
+</li>
+<li>
+<p>tâches planifiées plus facilement configurables avec un timer basé sur le calendrier</p>
+</li>
+<li>
+<p>traitements asynchrones anciennement en JMS, devenus des EJB avec @Asynchronous</p>
+</li>
+<li>
+<p>utilisation de JAX-RS pour les webservices RESTful</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Petit bémol, aucune étude de performance n&#8217;a été faite pour comparer les deux architectures&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/harvard.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/harvard.jpg?w=300" alt="image" title="harvard"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Refactoring-JavaEE-5-code-to-take-advantage-of-JavaEE-6-features.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Refactoring-JavaEE-5-code-to-take-advantage-of-JavaEE-6-features.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Three : Patterns & Best Practices for CDI]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenants : Reza Rahman de Caucho/Resin et un autre gars</p>
+</div>
+<div class="paragraph">
+<p>La session est assez dense et après un brève rappel de CDI que je vous épargne, on nous énumère quelques bonnes pratiques pour l&#8217;utilisation de CDI.</p>
+</div>
+<div class="paragraph">
+<p>La configuration XML permet de surcharger les annotations et donc est pratique pour configurer CDI selon les environnements :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>pour les tests unitaires, on peut activer les alternatives par exemple</p>
+</li>
+<li>
+<p>pour les tests d&#8217;intégrations , on peut changer la datasource (oracle au lieu de h2), activer des interceptors pour le logging</p>
+</li>
+<li>
+<p>pour la production, on désactive les alternatives, certains interceptors</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Chaque environnement a son propre fichier "beans.xml". Cependant, dans CDI 1.0, la configuration XML n&#8217;est pas encore standardisée (peut être dans CDI 1.1 comme le voudrait Reza), donc dans les exempes, on trouvait des imports de namespace de Resin.</p>
+</div>
+<div class="paragraph">
+<p>Pour les qualifiers, on peut utiliser une énumeration, ce qui permet d'éviter de définir pleins d&#8217;annotations. On utilise la même avec en paramètre une valeur d&#8217;enum.</p>
+</div>
+<div class="paragraph">
+<p>Il faut ajuster au mieux le scope des beans, cela permet de maximizer l&#8217;utilisation de la mémoire. On peut définir ses propres scopes, ou utiliser le @ConversationScoped, qui permet de le controller de façon programmatique.</p>
+</div>
+<div class="paragraph">
+<p>L&#8217;utilisation de stéréotype (regroupement d&#8217;annotations) permet de mieux définir les composants de son application.</p>
+</div>
+<div class="paragraph">
+<p>Les interceptors sont utilisés dand le cas de fonctionnalités transverses plutôt système et doivent être découplées du métier. A l&#8217;inverse, les décorators sont là pour compléter le métier.</p>
+</div>
+<div class="paragraph">
+<p>Il faut différencier l&#8217;injection de dépendances @Inject de l&#8217;injection de resources @Resource.</p>
+</div>
+<div class="paragraph">
+<p>Il est intéressant de définir ses propres extensions CDI (à ce moment, je n&#8217;avais compris comment faire cela&#8230;&#8203;merci Dan Allen dans la session suivante).</p>
+</div>
+<div class="paragraph">
+<p>Voilà pleins de bons conseils pour CDI, ça donne envie de s&#8217;y mettre !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/resin.gif"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/resin.gif" alt="image" title="resin"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Patterns-and-Best-Practices-for-CDI.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Patterns-and-Best-Practices-for-CDI.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Three : Modularity in Enterprise]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenant : Mike Keith de Oracle</p>
+</div>
+<div class="paragraph">
+<p>La session a pour but de nous montrer les grands principes d&#8217;une architecture modulaire (et de nous convaincre de l&#8217;utilité mais ça c&#8217;est facile ;-) ) :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Decoupled, Cohesive, Reusable, Complete</p>
+</li>
+<li>
+<p>Extensible, Testable, Debuggable, Upgradable</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Pour le moment, OSGi est le seul système de modules viable en Java, et il est en plus dynamique (pluggable à chaud).</p>
+</div>
+<div class="paragraph">
+<p>Le projet Jigsaw sera une alternative mais dans un environnement statique, ce qui est suffisant pour la majorité des applications. Il est prévu pour JavaSE 8.</p>
+</div>
+<div class="paragraph">
+<p>En gros, il faut préparer son application à être modulaire, mais pour le moment pas de solution toute faite (à part OSGi&#8230;&#8203;).</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/osgi.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/osgi.png?w=300" alt="image" title="osgi"></span></a>http://javaonemorething.files.wordpress.com/2011/10/jigsaw1.jpg[<span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/jigsaw1.jpg" alt="image" title="jigsaw"></span>]</p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Modularity-in-Enterprise.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Modularity-in-Enterprise.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Three : Hacking JavaEE with CDI extensions]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenant : Dan Allen @mojavelinux de JBoss/Red Hat, java rock star (il a le look) et déjà vu dans la session sur Arquillian</p>
+</div>
+<div class="paragraph">
+<p>Cette session a pour but de nous montrer la puissance des extensions de CDI qui permettent de modifier /hacker le comportement d&#8217;une application JavaEE !</p>
+</div>
+<div class="paragraph">
+<p>Les slides sont très surprenants mais Dan Allen est très agréables à écouter, très clair et plein d&#8217;assurance, d&#8217;autant plus qu&#8217;une grande partie est du live coding !</p>
+</div>
+<div class="paragraph">
+<p>Les extensions de CDI permettent :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>d&#8217;enregistrer des beans supplémentaires</p>
+</li>
+<li>
+<p>de satisfaire les points d&#8217;injection</p>
+</li>
+<li>
+<p>d&#8217;introduire des scopes custom</p>
+</li>
+<li>
+<p>d&#8217;augmenter ou remplacer des metadatas</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Comment ajouter une extension ?</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>implémenter Extension</p>
+</li>
+<li>
+<p>coder l&#8217;extension avec l&#8217;API, Solder semble très utile "swiss arly knife"</p>
+</li>
+<li>
+<p>utiliser le ServiceProvider pour l&#8217;activer</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Dan nous montre pleins d&#8217;exemples plus ou moins compliqués :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>suppression d&#8217;une annotation au runtime et remplacement par une autre</p>
+</li>
+<li>
+<p>génération de log à partir d&#8217;annotations sur une interface</p>
+</li>
+<li>
+<p>génération de code au runtime : par exemple, l&#8217;appel de requête avec JPA, à voir dans cdi-extension-query</p>
+</li>
+<li>
+<p>&#8230;&#8203;..</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>J&#8217;espère que la session sera sur Parleys, car il est difficile de restituer ce live coding mais c'était bluffant ! Dan nous explique que Seam 3 sera un ensemble d&#8217;extensions CDI et il espère un jour voir un CDI MarketPlace !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/danallen.jpeg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/danallen.jpeg" alt="image" title="danallen"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Hacking-JavaEE-with-CDI-extensions.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Three-Hacking-JavaEE-with-CDI-extensions.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Four : JBoss AS7, the Death of the Slow]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenant : Andrew Lee Rubinger, JBoss/Red Hat</p>
+</div>
+<div class="paragraph">
+<p>Andrew commence par nous expliquer que pour JBoss 7, ils ont cleané le repo ! Ils ont appris de leurs erreurs et sont repartis from scratch !</p>
+</div>
+<div class="paragraph">
+<p>Voici les 7 points qui caractérisent JBoss 7 :</p>
+</div>
+<div class="paragraph">
+<p>\1. Lightning fast : un serveur d&#8217;application a toujours eu la mauvaise réputation de mettre trop de temps pour démarrer : JBoss 5 19s, JBoss 6 12s. &#8230;&#8203;..JBoss 7 démarre en 2s preuve à l&#8217;appui avec une démo où il s&#8217;amuse à relancer plusieurs fois le JBoss, lol.</p>
+</div>
+<div class="paragraph">
+<p>\2. Collision : JBoss 7 est basé sur un design modulaire avec des jboss modules, le classpath est mort !</p>
+</div>
+<div class="paragraph">
+<p>\3. Heavy lifting : JBoss 7 a une très petite empreinte mémoire avec un nouveau kernel : the Modulare Service Container.</p>
+</div>
+<div class="paragraph">
+<p>\4. Testing sucks, Building sucks, Starting sucks, Deploying sucks : pour augmenter la productivité du développeur, il y a de nouveaux outils : Forge, SkinkWrap, Arquillian. Démo à l&#8217;appui, green balls en quelques secondes pour tester des EJBs, les transactions, les servlets&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>\5. Configuration sucks : nouvel console d&#8217;administration, et toute la configuration dans un seul fichier</p>
+</div>
+<div class="paragraph">
+<p>\6. Management sucks : nouveau concept de domaine pour gérer un groupe de serveurs</p>
+</div>
+<div class="paragraph">
+<p>\7. Bad components sucks : JBoss 7 regroupe</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>RestEasy pour JAX-RS</p>
+</li>
+<li>
+<p>SnowDrop comme adaptateur pour Spring</p>
+</li>
+<li>
+<p>Iron Jacomar</p>
+</li>
+<li>
+<p>HornetQ pour JMs</p>
+</li>
+<li>
+<p>Weld pour CDI</p>
+</li>
+<li>
+<p>Infinispan pour le cache et la data grid</p>
+</li>
+<li>
+<p>Hibernate pour JPA</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>JBoss 7.1 n&#8217;est pas encore full JavaEE 6. Il supporte aussi OSGi. Il n&#8217;a pas d&#8217;installeur, juste une archive à dézipper.</p>
+</div>
+<div class="paragraph">
+<p>Bref, Andrew nous a tous convaincu, d&#8217;où les applaudissements de l&#8217;audience.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/jbossas7.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/jbossas7.png?w=300" alt="image" title="jbossas7"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Four-JBoss-AS7-the-Death-of-the-Slow.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Four-JBoss-AS7-the-Death-of-the-Slow.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Four : Community Keynote]]></title><description><![CDATA[<div class="paragraph">
+<p>La dernière keynote commence par une présentation d&#8217;IBM sur sa vision du cloud. Le discours est plutôt intéressant avec une vision pour une fois pas trop abstraite sur le cloud. IBM veut faire passer le message qu&#8217;ils sont déjà prêts avec une démo powerpoint d&#8217;un déploiement d&#8217;une application JavaEE sur le cloud avec un outil dédié qui se charge de tout. Ça ressemble un peu à la démo GlassFish lors de la Strategy Keynote. En tout cas, c'était la meilleure keynote des sponsors.</p>
+</div>
+<div class="paragraph">
+<p>Ensuite, la keynote est consacrée à la communauté, et tout de suite le ton est plus sympathique et décontractée : un débat avec plusieurs représentants de la communauté (OpenJDK, JUG) sur des questions sondages où on peut répondre par SMS ou mail. Les résultats sont affichés en temps réel ! On notera la bonne prestation de Donald en tant qu&#8217;animateur et médiateur ainsi que de Bruno Souza du JUG du Brésil, monté sur le podium avec le drapeau national sur le dos, il était bien chaud ! Puis, le comique Java Posse vient demander à l&#8217;assemblée son ressenti sur les sessions, les orientations du langage,&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Enfin, la keynote se termine par le Java Life, clip de rap déjanté sur la vie du développeur Java.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/java-posse.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/java-posse.jpg?w=300" alt="image" title="java-posse"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/08/Day-Four-Community-Keynote.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/08/Day-Four-Community-Keynote.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Sat, 08 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day Two : Strategy Keynote]]></title><description><![CDATA[<div class="paragraph">
+<p>Comme lors de technical keynote, on commence par faire plaisir aux sponsors : c&#8217;est le tour de Juniper Network. Un discours sur l&#8217;importance du réseau dans le développement d&#8217;applications, blabla &#8230;&#8203;. et java n&#8217;est pas citée dans le discours.</p>
+</div>
+<div class="paragraph">
+<p>Ensuite, Hasan Rizvi de Oracle vient présenter les résultats de Java en 2011, en annonçant au passage le JDK 7 pour MAC OS X en Developper Preview. Il fait venir sur la scène des représentants de IBM, Red Hat et (encore) Intel.</p>
+</div>
+<div class="paragraph">
+<p>Adam Messinger entre alors pour parler de la stratégie et la roadmap de Java :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>JavaSE : plusieurs updates du JDK7 en 2012, JDK8 est prévu pour l'été 2013</p>
+</li>
+<li>
+<p>JavaFX : devient OpenSource (!), et Oracle veut en faire la solution client java, en mettant en avant le slogan "Run Anywhere". Nous avons le droit à une démo où une application java tourne d&#8217;abord sur une tablette Android, puis une tablette Linux et enfin sur un ipad ! Toute la salle est pluôt étonnée, et Adam dit "Yes, Java run on iOS".</p>
+</li>
+<li>
+<p>JavaME : la stratégie est de s&#8217;aligner sur les versions de SE, et de pousser vers la convergence pour le JDK 8 avec la notion de profile CDC</p>
+</li>
+<li>
+<p>JavaEE: on commence par faire remarquer que JavaEE 6 est la version la plus rapidement implémentée et adaoptée. JavaEE 7 doit aider à faire passer Java dans l&#8217;univers du cloud (ndlr : mais on sait pas trop comment). JavaEE  7 se veut être le standard pour le PaaS. ESPN vient aussi apporter son témoignage sur l&#8217;utilisation de JavaEE avec Glasfish pour son site internet.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Enfin, nous avons le droit à un "one more thing" : le projet Avatar.Oracle veut rapprocher Java de l&#8217;HTML5 au sein d&#8217;une même application hybride. Cela semble intéressant mais peut être un peu tard vu le développement actuel de l&#8217;HTML5.</p>
+</div>
+<div class="paragraph">
+<p>Pour plus de détails :</p>
+</div>
+<div class="paragraph">
+<p><a href="http://blogs.oracle.com/java/entry/moving_java_forward_java_strategy" class="bare">http://blogs.oracle.com/java/entry/moving_java_forward_java_strategy</a>
+<a href="http://javaonemorething.files.wordpress.com/2011/10/jdkroadmap.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/jdkroadmap.png?w=300" alt="image" title="jdkroadmap"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/06/Day-Two-Strategy-Keynote.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/06/Day-Two-Strategy-Keynote.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Thu, 06 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day One : Project Jigsaw]]></title><description><![CDATA[<div class="paragraph">
+<p>C&#8217;est une session de veille technologique sur ce que sera le JDK 8.</p>
+</div>
+<div class="paragraph">
+<p>Elle sera modulaire et possèdera deux modes:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>legacy mode, le mode actuel avec un classpath</p>
+</li>
+<li>
+<p>module mode, le classpath n&#8217;existe plus !</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>De nouveaux outils seront ajoutés aux JDK : jpkg, jmod, jrepo, jsign. Le jar n&#8217;est plus utilisé, la jre ne se trouve plus dans son propre répertoire, tout devient modulaire : jdk.jdbc, jdk.jre, &#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Pour déclarer un module, il faut déclarer une nouvelle classe (ModuleInfo) avec le nom, la version, et la version des dépendances. Le répertoire module path permet de spécifier l&#8217;endroit des modukes, par exemple src/foo/com/foo/Main,java.</p>
+</div>
+<div class="paragraph">
+<p>Le format des archives sera fait avec jmod ( jmod create, jmod install, jmod list).</p>
+</div>
+<div class="paragraph">
+<p>Pour l&#8217;instant, tout ceci est en béta, et on attend la suite avec l&#8217;ambiance.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/jigsaw1.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/jigsaw1.jpg" alt="image" title="jigsaw"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/05/Day-One-Project-Jigsaw.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/05/Day-One-Project-Jigsaw.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Wed, 05 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day One : JavaDb features in JDK7]]></title><description><![CDATA[<div class="paragraph">
+<p>Java DB est la version packagée par Oracle de Apache Derby. Elle est supporte totalement toutes les fonctionnalités SQL (ANSI/ISO SQL). Elle peut être embarquée ou en mode client /serveur.</p>
+</div>
+<div class="paragraph">
+<p>Depuis le JDK6, elle est fournie avec la distribution dans $JDK_ROOT/db.</p>
+</div>
+<div class="paragraph">
+<p>Pour le JDK7, elle bénéficie d&#8217;améliorations de performances :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>réduction de l&#8217;utilisation du CPU</p>
+</li>
+<li>
+<p>calcul automatique des statistiques des index</p>
+</li>
+<li>
+<p>scalabilité</p>
+</li>
+<li>
+<p>streaming des lobs</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>De plus, JavaDB propose un mode in-memory :</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>jdbc:derby:memory:myDb;create=true</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>Il y a aussi des nouveautés:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>replication asynchrone</p>
+</li>
+<li>
+<p>offset/fetch next</p>
+</li>
+<li>
+<p>amélioration de l&#8217;interrupt handling</p>
+</li>
+<li>
+<p>générateurs de séquence</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/javadb.png"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/javadb.png" alt="image" title="javadb"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/05/Day-One-JavaDb-features-in-JDK7.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/05/Day-One-JavaDb-features-in-JDK7.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Wed, 05 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day one : Technical Keynote]]></title><description><![CDATA[<div class="paragraph">
+<p>C&#8217;est le show à l&#8217;americaine ! Magnifique salle, deux écrans géants, une musique pop !</p>
+</div>
+<div class="paragraph">
+<p>La première partie est consacrée à Intel, le sponsor "diamond" (merci pour le café et la bière) : pas très intéressant, du blabla, des chiffres et le discours "Oracle and Intel are working together for better performance ! ". Ensuite, une annonce Oracle pour le lancement de "Oracle NoSQL" histoire d'être à la mode. Puis, enfin on parle de Java avec une très bonne présentation de Mark Reinhold :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>java7 : Project Coin, InvokeDynamic, Thread Fork/Join</p>
+</li>
+<li>
+<p>java8 : Project Lambda, Project Jigsaw</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Après, nous avons le droit à un des évènements de JavaOne : JavaFx 2.0. Bon speaker et démo assez bluffante finissant sur une application javafx avec une vidéo de capture de mouvement, duke est animé par quelqu&#8217;un, à voir.</p>
+</div>
+<div class="paragraph">
+<p>Linda DeMichiel, spec leader de JavaEE7, vient nous parler du cloud mais pas que. On voit bien que comme Antonio Goncalves nous l&#8217;avait dit au jug summer camp de La Rochelle, Oracle pousse pour mettre du cloud dans JavaEE. On a le droit à une démo avec Glassfish d&#8217;un déploiement automatique sur plusieurs vms, c&#8217;est pas mal&#8230;&#8203;..Wait and see&#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p>Enfin, vient le tour de java mobile, mais pas le temps de rester, il faut quitter la keynote pour être à l&#8217;heure à la première session de mon "schedule"</p>
+</div>
+<div class="paragraph">
+<p>Liens :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://twitter.com/javalobbyposts/status/121098201913757696">tweet</a></p>
+</li>
+<li>
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/photo-03-10-11-08-16-54.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/photo-03-10-11-08-16-54.jpg?w=300" alt="image" title="Technical Keynote"></span></a></p>
+</li>
+</ul>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/04/Day-one-Technical-Keynote.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/04/Day-one-Technical-Keynote.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 04 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day One : Hudson onward and upward]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenant : des gens d&#8217;Oracle qui semblent parachutés sur le projet</p>
+</div>
+<div class="paragraph">
+<p>Forcément la comparaison est difficile pour Hudson, les deux sessions sont à la suite dans la même salle&#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p>Présentation très fade, démo qui marche tout juste, beaucoup de flou sur la stratégie,pas très rassurant sur l&#8217;avenir d&#8217;Hudson.</p>
+</div>
+<div class="paragraph">
+<p>La seule éclaircie, la présentation de la fonctionnalité "Cascading project", une héritage entre jobs. Cela permet d&#8217;hériter des propriétés du job parent, de les surcharger. Pas mal pour l&#8217;administration en masse de jobs.</p>
+</div>
+<div class="paragraph">
+<p>J&#8217;oubliais, on nous a donné des badges Hudson&#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/hudson.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/hudson.jpg" alt="image" title="hudson"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/04/Day-One-Hudson-onward-and-upward.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/04/Day-One-Hudson-onward-and-upward.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 04 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day One : Continuous Integration with Jenkins]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenant : Kohsuke Kawagachi (<a href="http://kohsuke.org/" class="bare">http://kohsuke.org/</a>)</p>
+</div>
+<div class="paragraph">
+<p>La meilleure présentation de la journée ! Monsieur Jenkins (c&#8217;est plus facile à dire) a montré par de nombreux chiffres à qui à profiter le fork avec Hudson et pas de surprises, c&#8217;est Jenkins qu&#8217;il faut suivre : activté en commit, mailing list, tickets,&#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p>Il a aussi montré de façon ironique comment migrer depuis Hudson : tu éteinds hudson, tu démarres jenkins et c&#8217;est tout.</p>
+</div>
+<div class="paragraph">
+<p>Jenkins est sous la license "Software Public Interest" comme Debian, PostgresSQL.</p>
+</div>
+<div class="paragraph">
+<p>Après le subtil règlement de compte avec Hudson, monsieur Jenkins nous explique le "Pre-tested commits", en gros le code est commité sur le tronc uniquement si les tests sont ok.</p>
+</div>
+<div class="paragraph">
+<p>Première démo : Git + Gerrit ( outil de revue de code pour Git)</p>
+</div>
+<div class="paragraph">
+<p>Deuxième démo : sans Gerrit, Jenkins fait un merge et une post-build action pour publier dans le repo maître</p>
+</div>
+<div class="paragraph">
+<p>Troisième démo : l&#8217;utilisation de différentes branches, par exemple une branche par fonctionnalité.</p>
+</div>
+<div class="paragraph">
+<p>Et comme, il sait très bien que tout le monde n&#8217;est pas passé à git, il nous montre comment faire avec subversion svn, en utilisant le plugin svn merge. On peut alors travailler par branches pour chaque fonctionnalité et de façon manuelle ou automatique, merger la branche dans le tronc si les tests sont ok, c&#8217;est magique.</p>
+</div>
+<div class="paragraph">
+<p>C&#8217;est vraiment une démonstration technique avec une facilité déconcertante.</p>
+</div>
+<div class="paragraph">
+<p>Et le slogan pour la fin : "<strong>Jenkins project is where the action is</strong>".</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/jenkins.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/jenkins.jpg?w=300" alt="image" title="jenkins"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/04/Day-One-Continuous-Integration-with-Jenkins.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/04/Day-One-Continuous-Integration-with-Jenkins.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 04 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Day One : Arquillian, the Extendable Enterprise Application Test Platform]]></title><description><![CDATA[<div class="paragraph">
+<p>Intervenant : Aslak Knutsen et Dan Allen</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.jboss.org/arquillian">Arquillian</a> est un framework de test orienté container qui simplifie l'écriture de tests pour une application javaEE. Il s&#8217;intègre parfaitement avec les frameworks de test comme Junit et TestNG ainsi qu&#8217;avec les serveurs d&#8217;application JBOSS ou Glassfish.</p>
+</div>
+<div class="paragraph">
+<p>Exemple de code :</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-java" data-lang="java">import static org.junit.Assert.assertEquals;
+import javax.ejb.EJB;
+import org.jboss.arquillian.container.test.api.Deployment;
+import org.jboss.arquillian.junit.Arquillian;
+import org.jboss.shrinkwrap.api.ShrinkWrap;
+import org.jboss.shrinkwrap.api.spec.JavaArchive;
+import org.junit.Test;
+import org.junit.runner.RunWith;@RunWith(Arquillian.class)
+
+public class GreetingManagerTest {
+  @Deployment
+  public static JavaArchive createDeployment() {
+          return ShrinkWrap.create(JavaArchive.class, "test.jar")
+                .addClasses(GreetingManager.class, GreetingManagerBean.class);
+   }
+
+  @EJB
+  private GreetingManager greetingManager;
+
+  @Test
+  public void shouldGreetUser() throws Exception {
+    String name = "Earthlings";
+    assertEquals("Hello, " + name, greetingManager.greet(name));
+  }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>La particularité d&#8217;Arquillian est d&#8217;offrir de nombreux points d&#8217;extensions en utilisant l&#8217;interface <em>LoadableExtension</em> avec le méchanisme de SPI.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="http://design.jboss.org/arquillian/logo/ui/images/success/arquillian_ui_success_256px.png" alt="image" title="Arquillian"></span></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/04/Day-One-Arquillian-the-Extendable-Enterprise-Application-Test-Platform.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/04/Day-One-Arquillian-the-Extendable-Enterprise-Application-Test-Platform.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Tue, 04 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Welcome San Francisco]]></title><description><![CDATA[<div class="paragraph">
+<p>Après quelques heures de vol en passant par Amsterdam, nous voila arrivé à San Francisco. Je dis nous car je voyage avec Nicolas mon collègue et surtout ami. Il aura fallu la journée du samedi et un peu du dimanche pour récupérer du jet lag et être en pleine forme pour la semaine javaone.</p>
+</div>
+<div class="paragraph">
+<p>Dimanche  matin, nous sommes venus nous enregistrer à l&#8217;hotel Hilton, et nous avons reçu notre package : tee-shirt, sac à dos, bloc notes &#8230;&#8203;. Le reste de la journée nous en avons profité pour faire une walk visite de San Francisco, en particulier le golden gate park, LA maison bleue et l&#8217;unique Castro Street Fair !</p>
+</div>
+<div class="paragraph">
+<p>Nous sommes prêts pour commencer les sessions dès lundi matin !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/10/p1060002.jpg"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/10/p1060002.jpg?w=300" alt="image" title="javaone-register"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/10/03/Welcome-San-Francisco.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/10/03/Welcome-San-Francisco.html</guid><category><![CDATA[JavaOne]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Mon, 03 Oct 2011 00:00:00 GMT</pubDate></item><item><title><![CDATA[Le commencement]]></title><description><![CDATA[<div class="paragraph">
+<p>Quelqu&#8217;un m&#8217;a dit : "Si tu n&#8217;as pas un blog à 30 ans, tu as raté ta vie". 30 ans approchant à grand pas, j&#8217;ai dit pourquoi pas. Après il fallait trouver un sujet qui puisse me lancer dans d&#8217;interminables posts lus par quelques personnes, qui en fait se sont trompées de site &#8230;&#8203;</p>
+</div>
+<div class="paragraph">
+<p>Dans 5 jours, c&#8217;est-à-dire samedi prochain, j&#8217;ai la chance et l&#8217;honneur d&#8217;aller à <a href="http://www.oracle.com/javaone/index.html">JavaOne</a> à San Francisco ! L&#8217;occasion pour moi d&#8217;apprendre tout plein de choses avec tout plein de passionnés sur le plus beau des langages de programmation JAVA (là je viens de perdre la moitié des lecteurs, et aussi les fans de C#).</p>
+</div>
+<div class="paragraph">
+<p>Ce blog sera l&#8217;occasion de voir si je prends et vous donne du plaisir (je regagne quelques lecteurs) en vous racontant mes aléas, humeurs, opinions et autres réflexions pendant cette semaine à San Francisco. See you soon !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://javaonemorething.files.wordpress.com/2011/09/javaone2011dukeilikethis.gif"><span class="image"><img src="http://javaonemorething.files.wordpress.com/2011/09/javaone2011dukeilikethis.gif" alt="image" title="javaOne2011DukeILikeThis"></span></a></p>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2011/09/26/Le-commencement.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2011/09/26/Le-commencement.html</guid><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Mon, 26 Sep 2011 00:00:00 GMT</pubDate></item></channel></rss>
