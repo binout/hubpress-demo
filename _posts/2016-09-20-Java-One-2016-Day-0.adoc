@@ -14,11 +14,19 @@ Par exemple, les autres JUGs sont surpris d'apprendre qu'il y a plusieurs JUGs e
 
 == Java Keynote
 
-D'abord, Intel nous explique qu'il fait le maximum pour améliorer la performance de la jvm sur ses architectures. Puis, c'est une petite pause scientifique avec la Nasa qui nous explique comment ils ont réussi à faire atterir Curiosity sur Mars.
+La keynote débute par l'annonce de deux nouveaux sites :
+
+* https://go.java/ pour débuter dans le monde Java,
+* https://developer.oracle.com/, portail pour les technologie Oracle et en particulier Java.
+
+Ensuite, on commence par Intel qui nous explique qu'il fait le maximum pour améliorer la performance de la jvm sur ses architectures. Puis, c'est une petite pause scientifique avec la Nasa qui nous raconte comment ils ont réussi à faire atterir Curiosity sur Mars.
+
+=== Java 9
 
 Enfin, Mark Reinhold, architecte de la plateforme Java, vient nous parler de Java 9, tout en expliquant qu'il n'y a pas que Jigsaw.
 
 image::https://pbs.twimg.com/media/CsqruMRVUAAKS4W.jpg:small[]
+Merci @NicolasComet
 
 Il fait deux démos intéressantes sur :
 
@@ -27,7 +35,12 @@ Il fait deux démos intéressantes sur :
 
 Puis c'est au tout de Brian Goetz, architecte du langage Java, de démontrer deux propositions de Java 9
 
-* class
+* value class
+[source]
+----
+public class Point(int x, int y){}
+----
+et Java se chargera pour nous d'implémenter les getters/setters et les méthodes `equals` et `hashCode`.
 
 * `val` permettant de substituer le type d'un objet
 [source,java]
@@ -37,12 +50,25 @@ val connection = url.openConnection();
 ....
 ----
 
-* Arun Gaul :
+=== JavaEE 8
 
-JavaEE8 Proposal : Cloud oriented,
-* packaging à la docker ?
+Et finalement vient le moment tant attendu, que veut faire Oracle de JavaEE ? Après quelques tensions avec la communauté ces derniers mois, Oracle avait annoncé qu'il allait redéfinir sa stratégie pour l'avenir de JavaEE qui sera Cloud (quelle surprise!).
 
-JavaEE RoadMap
+Anil Gaur vient nous présenter la nouvelle proposition pour JavaEE 8.
 
-MVC gate : la Spec a disparu de la roadMap !
-Microprofile fork ?
+image::https://pbs.twimg.com/media/Csq0tkTVIAA-HJa.jpg:small[]
+
+A noter :
+
+* deux nouvelles specifications : Configuration (le retour?) et HealthCheck
+* confirmation pour JSON-B et Security
+* mais disparition de MVC (qui était pourtant bien avancé)
+
+Et la nouvelle roadmap 
+
+image::https://pbs.twimg.com/media/Csq1IxFUAAAXLZl.jpg:large[]
+
+* JavaEE 8 est décalé en fin 2017
+* JavaEE9 serait attendu en fin 2018 (1 an après...)
+
+A vous de faire votre avis sur le futur de JavaEE !
