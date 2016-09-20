@@ -1,0 +1,48 @@
+= JavaOne 2016 : Day 0
+:hp_tags: JavaOne
+
+== Moscone Center
+
+Le premier jour est l'occasion de découvrir le célèbre https://fr.wikipedia.org/wiki/Moscone_Center[Moscone Center], réservé le reste de la semaine à Oracle OpenWorld.
+Plusieurs sessions autour des Java User Groups sont organisées, c'est l'occasion aussi de rencontrer d'autres JUGs. Et j'ai réalisé que les JUGs en Europe sont largement plus développées que d'autres JUGs dans le monde !
+Par exemple, les autres JUGs sont surpris d'apprendre qu'il y a plusieurs JUGs en France.
+
+++++
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hello <a href="https://twitter.com/BordeauxJUG">@BordeauxJUG</a> from  <a href="https://twitter.com/JavaOneConf">@JavaOneConf</a> :-) <a href="https://t.co/L88b8tS9vF">pic.twitter.com/L88b8tS9vF</a></p>&mdash; Benoît Prioux (@binout) <a href="https://twitter.com/binout/status/777561790385238017">September 18, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+++++
+
+== Java Keynote
+
+D'abord, Intel nous explique qu'il fait le maximum pour améliorer la performance de la jvm sur ses architectures. Puis, c'est une petite pause scientifique avec la Nasa qui nous explique comment ils ont réussi à faire atterir Curiosity sur Mars.
+
+Enfin, Mark Reinhold, architecte de la plateforme Java, vient nous parler de Java 9, tout en expliquant qu'il n'y a pas que Jigsaw.
+
+image::https://pbs.twimg.com/media/CsqruMRVUAAKS4W.jpg:small[]
+
+Il fait deux démos intéressantes sur :
+
+* jshell, interpréteur de code Java qui permet d'éxécuter de code Java sans compilation. Mark le voit comme une façon de découvrir l'API.
+* jlint, l'outil permettant de faire son jdk _custom_ en choisissant des modules.
+
+Puis c'est au tout de Brian Goetz, architecte du langage Java, de démontrer deux propositions de Java 9
+
+* class
+
+* `val` permettant de substituer le type d'un objet
+[source,java]
+----
+val url = new URL(...);
+val connection = url.openConnection();
+....
+----
+
+* Arun Gaul :
+
+JavaEE8 Proposal : Cloud oriented,
+* packaging à la docker ?
+
+JavaEE RoadMap
+
+MVC gate : la Spec a disparu de la roadMap !
+Microprofile fork ?
