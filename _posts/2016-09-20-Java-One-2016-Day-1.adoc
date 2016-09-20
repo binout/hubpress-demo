@@ -1,0 +1,13 @@
+= JavaOne 2016 : Day 1
+:hp-tags: JavaOne
+
+== Mute Java EE 7 DNA with CDI
+
+== Jenkins 2.0
+
+== Junit 5
+
+== AWS Lambda for Java Architects
+
+== Full-Stack Java with JSweet, Angular 2, PrimeNG, and JAX-RS
+
