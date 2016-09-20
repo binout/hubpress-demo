@@ -1,5 +1,5 @@
 = JavaOne 2016 : Day 0
-:hp_tags: JavaOne
+:hp-tags: JavaOne
 
 == Moscone Center
 
