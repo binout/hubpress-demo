@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JavaOneMoreThing]]></title><description><![CDATA[Un peu de Java et plus encore]]></description><link>https://binout.github.io/javaonemorething</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 May 2017 14:22:44 GMT</lastBuildDate><atom:link href="https://binout.github.io/javaonemorething/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[JavaOne 2016 : Day 0]]></title><description><![CDATA[<div class="sect1">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[JavaOneMoreThing]]></title><description><![CDATA[Un peu de Java et plus encore]]></description><link>https://binout.github.io/javaonemorething</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 May 2017 14:56:12 GMT</lastBuildDate><atom:link href="https://binout.github.io/javaonemorething/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Release : asciidoctor-ant 1.5.4 et plus ...]]></title><description><![CDATA[<div class="sect1">
+<h2 id="_1_5_4">1.5.4</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>En ce mois de mai, je vous annonce la sortie de la version <a href="https://github.com/asciidoctor/asciidoctor-ant/releases/tag/v1.5.4">1.5.4</a> d' asciidoctor-ant.</p>
+</div>
+<div class="listingblock">
+<div class="title">Dispo sur Maven Central</div>
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.asciidoctor&lt;/groupId&gt;
+    &lt;artifactId&gt;asciidoctor-ant&lt;/artifactId&gt;
+    &lt;version&gt;1.5.4&lt;/version&gt;
+&lt;/dependency&gt;</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_nouvel_artifact_code_core_code">Nouvel artifact <code>core</code></h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>En plus du traditionnel alignement de version sur <a href="https://github.com/asciidoctor/asciidoctorj">asciidoctorj</a>, une petite nouveauté est disponible. En effet, j&#8217;ai une <a href="https://github.com/asciidoctor/asciidoctor-ant/issues/56">demande de la communauté</a> pour avoir une version de l&#8217;artifact sans les librairies asciidoctor (asciidoctorj et asciidoctor-pdf).</p>
+</div>
+<div class="paragraph">
+<p>Le <em>fat jar</em> ou <em>uber jar</em> comme artifact principal était un choix d&#8217;origine pour faciliter l&#8217;intégration dans un script ant.</p>
+</div>
+<div class="paragraph">
+<p>Cependant, j&#8217;ai eu le plaisir d&#8217;apprendre que asciidoctor-ant était utilisé pour les <a href="https://github.com/beanvalidation/beanvalidation-spec">spécifications de Bean Validation</a> et dans certains cas, le besoin était de surcharger une dépendance comme asciidoctor-pdf. D&#8217;où la naissance d&#8217;un <em>core</em> artifact avec uniquement le code de la tache ant.</p>
+</div>
+<div class="listingblock">
+<div class="title">Core artifact sur Maven Central</div>
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.asciidoctor&lt;/groupId&gt;
+    &lt;artifactId&gt;asciidoctor-ant&lt;/artifactId&gt;
+    &lt;version&gt;1.5.4&lt;/version&gt;
+    &lt;classifier&gt;core&lt;classifier&gt;
+&lt;/dependency&gt;</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_en_route_vers_la_1_6">En route vers la 1.6 !</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Par ailleurs, asciidoctor-ant se prépare aussi à la prochaine version majeure de asciidoctor : <strong>1.6</strong> ! Une release <a href="https://github.com/asciidoctor/asciidoctor-ant/releases/tag/v1.6.0-alpha.3">1.6.0-alpha3</a> est ainsi disponible .</p>
+</div>
+<div class="listingblock">
+<div class="title">Dispo sur Maven Central</div>
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.asciidoctor&lt;/groupId&gt;
+    &lt;artifactId&gt;asciidoctor-ant&lt;/artifactId&gt;
+    &lt;version&gt;1.6.0-alpha3&lt;/version&gt;
+&lt;/dependency&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>En tout cas, je remercie Guillaume Smet(<a href="https://github.com/gsmet">@gsmet</a>) pour ses contributions et vive l&#8217;open source !</p>
+</div>
+</div>
+</div>]]></description><link>https://binout.github.io/javaonemorething/2017/05/22/Release-asciidoctor-ant-154-et-plus.html</link><guid isPermaLink="true">https://binout.github.io/javaonemorething/2017/05/22/Release-asciidoctor-ant-154-et-plus.html</guid><category><![CDATA[java]]></category><category><![CDATA[ asciidoctor]]></category><dc:creator><![CDATA[Benoît Prioux]]></dc:creator><pubDate>Mon, 22 May 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[JavaOne 2016 : Day 0]]></title><description><![CDATA[<div class="sect1">
 <h2 id="_moscone_center">Moscone Center</h2>
 <div class="sectionbody">
 <div class="paragraph">
