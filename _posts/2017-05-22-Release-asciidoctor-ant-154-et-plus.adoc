@@ -1,0 +1,51 @@
+= Release : asciidoctor-ant 1.5.4 et plus ...
+:hp-tags: java, asciidoctor
+
+== 1.5.4
+
+En ce mois de mai, je vous annonce la sortie de la version https://github.com/asciidoctor/asciidoctor-ant/releases/tag/v1.5.4[1.5.4] d' asciidoctor-ant. 
+
+.Dispo sur Maven Central
+[source, xml]
+----
+<dependency>
+    <groupId>org.asciidoctor</groupId>
+    <artifactId>asciidoctor-ant</artifactId>
+    <version>1.5.4</version>
+</dependency>
+----
+
+== Nouvel artifact `core`
+
+En plus du traditionnel alignement de version sur https://github.com/asciidoctor/asciidoctorj[asciidoctorj], une petite nouveauté est disponible. En effet, j'ai une demande de la communauté pour avoir une version de l'artifact sans les librairies asciidoctor (asciidoctorj et asciidoctor-pdf).
+
+Le _fat jar_ ou _uber jar_ comme artifact principal était un choix d'origine pour faciliter l'intégration dans un script ant. 
+
+Cependant, j'ai eu le plaisir d'apprendre que asciidoctor-ant était utilisé pour les https://github.com/beanvalidation/beanvalidation-spec[spécifications de Bean Validation] et dans certains cas, le besoin était de surcharger une dépendance comme asciidoctor-pdf. D'où la naissance d'un _core_ artifact avec uniquement le code de la tache ant.
+
+.Core artifact sur Maven Central
+[source, xml]
+----
+<dependency>
+    <groupId>org.asciidoctor</groupId>
+    <artifactId>asciidoctor-ant</artifactId>
+    <version>1.5.4</version>
+    <classifier>core<classifier>
+</dependency>
+----
+
+== En route vers la 1.6 !
+
+Par ailleurs, asciidoctor-ant se prépare aussi à la prochaine version majeure de asciidoctor : *1.6* ! Une release https://github.com/asciidoctor/asciidoctor-ant/releases/tag/v1.6.0-alpha.3[1.6.0-alpha3] est ainsi disponible .
+
+.Dispo sur Maven Central
+[source, xml]
+----
+<dependency>
+    <groupId>org.asciidoctor</groupId>
+    <artifactId>asciidoctor-ant</artifactId>
+    <version>1.6.0-alpha3</version>
+</dependency>
+----
+
+En tout cas, je remercie Guillaume Smet(https://github.com/gsmet[@gsmet] pour ses contributions et vive l'open source !
