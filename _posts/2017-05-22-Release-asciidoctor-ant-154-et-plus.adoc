@@ -17,7 +17,7 @@ En ce mois de mai, je vous annonce la sortie de la version https://github.com/as
 
 == Nouvel artifact `core`
 
-En plus du traditionnel alignement de version sur https://github.com/asciidoctor/asciidoctorj[asciidoctorj], une petite nouveauté est disponible. En effet, j'ai une demande de la communauté pour avoir une version de l'artifact sans les librairies asciidoctor (asciidoctorj et asciidoctor-pdf).
+En plus du traditionnel alignement de version sur https://github.com/asciidoctor/asciidoctorj[asciidoctorj], une petite nouveauté est disponible. En effet, j'ai une https://github.com/asciidoctor/asciidoctor-ant/issues/56[demande de la communauté] pour avoir une version de l'artifact sans les librairies asciidoctor (asciidoctorj et asciidoctor-pdf).
 
 Le _fat jar_ ou _uber jar_ comme artifact principal était un choix d'origine pour faciliter l'intégration dans un script ant. 
 
@@ -48,4 +48,4 @@ Par ailleurs, asciidoctor-ant se prépare aussi à la prochaine version majeure 
 </dependency>
 ----
 
-En tout cas, je remercie Guillaume Smet(https://github.com/gsmet[@gsmet] pour ses contributions et vive l'open source !
+En tout cas, je remercie Guillaume Smet(https://github.com/gsmet[@gsmet]) pour ses contributions et vive l'open source !
